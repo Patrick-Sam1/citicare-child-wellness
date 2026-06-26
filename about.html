@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Child Development, Child Wellness, Child Mental Health, Child Psychology, Child Therapy, Child Counselling, Child Behaviour Support, Early Childhood Development, Speech Delay Therapy, Speech and Language Therapy for Children, Autism Support for Children, Autism Therapy, ADHD Support for Children, Child Assessment Services, Developmental Milestones, Pediatric Therapy, Child Emotional Wellbeing, Child Learning Support, Behavioural Therapy for Children, Early Intervention Services, Family Support Services, Adolescent Mental Health, Child and Adolescent Wellness, Child Development Specialists, Evidence-Based Child Therapy, Child Communication Skills, Social Skills Development, Parenting Support, Developmental Screening, Children's Wellbeing, Special Needs Support for Children, Healthy Child Development, Citicare Child & Adolescent Wellness">
+    <meta name="description" content="Expert child development, speech therapy, autism support, ADHD intervention, and mental wellness services for children and adolescents.">
+    <title>About Us -Child Development, Autism, ADHD, ABA & Speech Therapy</title>
+    <meta property="og:title" content="Citicare Child & Adolescent Wellness | Child Development & Therapy Services">
+    <meta property="og:description" content="Expert child development, speech therapy, autism support, ADHD intervention, and mental wellness services for children and adolescents.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.citicarewellness.com">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Citicare Child & Adolescent Wellness">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,600;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/citi logo.jpg">
+
+    <style>
+        /* ===== TOP CONTACT BAR - WHITE BACKGROUND ===== */
+        .top-contact-bar {
+            background: #FFFFFF;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+        }
+
+        .top-contact-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px 20px;
+        }
+
+        .top-contact-bar .contact-items {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .top-contact-bar .contact-items a {
+            color: #555;
+            text-decoration: none;
+            font-size: 0.82rem;
+            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            white-space: nowrap;
+        }
+
+        .top-contact-bar .contact-items a:hover {
+            color: var(--gold);
+        }
+
+        .top-contact-bar .contact-items i {
+            color: var(--gold);
+            font-size: 0.85rem;
+            width: 16px;
+            text-align: center;
+        }
+
+        .top-contact-bar .social-icons {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .top-contact-bar .social-icons a {
+            color: #999;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .top-contact-bar .social-icons a:hover {
+            color: var(--gold);
+        }
+
+        .top-contact-bar .contact-divider {
+            color: #ddd;
+            font-size: 0.8rem;
+        }
+
+        
+        /* ===== FLOATING WHATSAPP BUTTON - BOTTOM LEFT ===== */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .whatsapp-float a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            color: white;
+            border-radius: 50%;
+            font-size: 2rem;
+            text-decoration: none;
+            box-shadow: 0 6px 25px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+            animation: pulse-whatsapp 2s infinite;
+        }
+
+        .whatsapp-float a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 35px rgba(37, 211, 102, 0.5);
+        }
+
+        .whatsapp-float .tooltip {
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .whatsapp-float:hover .tooltip {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @keyframes pulse-whatsapp {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
+
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 992px) {
+            .top-contact-bar .container {
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+            }
+
+            .top-contact-bar .contact-items {
+                justify-content: center;
+                gap: 12px 18px;
+            }
+
+            .top-contact-bar .social-icons {
+                justify-content: center;
+            }
+        }    
+
+            .whatsapp-float {
+                bottom: 20px;
+                left: 20px;
+            }
+
+            .whatsapp-float a {
+                width: 50px;
+                height: 50px;
+                font-size: 1.6rem;
+            }
+
+        @media (max-width: 768px) {
+            .top-contact-bar .contact-items {
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+            }
+
+            .top-contact-bar .contact-items a {
+                font-size: 0.75rem;
+            }
+
+            .top-contact-bar .contact-divider {
+                display: none;
+            }
+
+            .top-contact-bar .social-icons {
+                margin-top: 4px;
+            }
+
+            }
+
+            .whatsapp-float a {
+                width: 48px;
+                height: 48px;
+                font-size: 1.4rem;
+            }
+
+            .whatsapp-float .tooltip {
+                display: none;
+            }
+
+            .about-image img {
+                height: 300px;
+            }
+
+
+        @media (max-width: 480px) {
+            .hero-slide .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .hero-slide .hero-content .sub-headline {
+                font-size: 0.9rem;
+            }
+
+            .hero-slideshow {
+                min-height: 70vh;
+            }
+
+            .logo img {
+                height: 40px;
+            }
+
+            .logo-text .brand {
+                font-size: 1.2rem;
+            }
+
+            .top-contact-bar .contact-items a {
+                font-size: 0.7rem;
+            }
+
+            .whatsapp-float {
+                bottom: 12px;
+                left: 12px;
+            }
+
+            .whatsapp-float a {
+                width: 44px;
+                height: 44px;
+                font-size: 1.2rem;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- ===== TOP CONTACT BAR - WHITE BACKGROUND ===== -->
+<div class="top-contact-bar">
+    <div class="container">
+        <div class="contact-items">
+            <a href="tel:+2347063695438">
+                <i class="fas fa-phone"></i> +2347063695438
+            </a>
+            <span class="contact-divider">|</span>
+            <a href="mailto:info@citicareservices.com">
+                <i class="fas fa-envelope"></i> info@citicareservices.com
+            </a>
+            <span class="contact-divider">|</span>
+            <a href="#">
+                <i class="fas fa-map-marker-alt"></i> 1, Rotimi Adeola Street Oriokuta, Lagos
+            </a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+
+<!-- ===== FLOATING WHATSAPP BUTTON - BOTTOM LEFT ===== -->
+<div class="whatsapp-float">
+    <a href="https://wa.me/2347063695438" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <span class="tooltip">Chat with us</span>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="./images/citi logo.jpg" alt="CITICARE Logo">
+                <div class="logo-text">
+                    <span class="brand">CITI<span>CARE</span></span>
+                    <span class="tagline">CHILD & ADOLESCENT WELLNESS</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html"  class="active">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="aba.html">ABA Therapy</a></li>
+                <li><a href="online-therapy.html">Online Therapy</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="nav-cta">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </div>
+</header>
+
+<!-- ===== PAGE HEADER ===== -->
+<section class="page-header">
+    <div class="container">
+        <h1>About <span class="gold-text">Citicare</span></h1>
+        <p>Discover the story, values, and dedicated team behind our golden touch in psychological care.</p>
+    </div>
+</section>
+
+<!-- ===== OUR STORY ===== -->
+<section class="about-preview" style="padding-top: 60px;">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-text">
+                <span class="section-tag">Our Story</span>
+                <h2 class="section-title">A Golden Touch in <br><span class="gold-text">Psychotherapy</span></h2>
+                <p>Citicare Child & Adolescent Mental Wellness was established to promote the emotional, psychological, and social well-being of children and adolescents in Nigeria. We recognized the need for specialized mental health support that helps young people navigate challenges and achieve healthy development.</p>
+                <p>Our multidisciplinary team provides comprehensive, evidence-based services, including mental health assessments, counselling, psychotherapy, and family support. We are dedicated to creating a safe and nurturing environment where children and adolescents can build resilience, develop positive coping skills, and thrive.</p>
+                <p>With compassion, professionalism, and excellence, we empower young people and their families to achieve lasting mental wellness.</p>
+            </div>
+            <div class="about-image">
+                <img src="./images/children.jpg" alt="Citicare team in session">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== OUR VALUES ===== -->
+<section class="values">
+    <div class="container">
+        <div class="text-center">
+            <span class="section-tag">Our Values</span>
+            <h2 class="section-title">The Principles That <br><span class="gold-text">Define Us</span></h2>
+            <p class="section-subtitle">These core values guide every interaction and decision we make as a practice.</p>
+        </div>
+        <div class="values-grid">
+            <div class="value-item">
+                <div class="icon"><i class="fas fa-handshake"></i></div>
+                <h4>Professionalism</h4>
+                <p>We apply best practice principles and conduct ourselves in a professional and ethical manner to deliver services that benefit our clients and community.</p>
+            </div>
+            <div class="value-item">
+                <div class="icon"><i class="fas fa-users"></i></div>
+                <h4>Strong Relationship</h4>
+                <p>We value strong relationships as the primary vehicle for helping people achieve mental health and learn new ways of thinking, feeling, and behaving.</p>
+            </div>
+            <div class="value-item">
+                <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                <h4>Competency</h4>
+                <p>Our team possesses the skills, knowledge, and experience to provide effective care. We work within our areas of competence and continuously seek to grow.</p>
+            </div>
+            <div class="value-item">
+                <div class="icon"><i class="fas fa-lock"></i></div>
+                <h4>Confidentiality</h4>
+                <p>We understand the importance of a safe space. Your privacy is taken very seriously, and we ensure that everything shared remains confidential.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== OUR TEAM ===== -->
+<section class="team">
+    <div class="container">
+        <div class="text-center">
+            <span class="section-tag">Our Team</span>
+            <h2 class="section-title">Meet Our <span class="gold-text">Experts</span></h2>
+            <p class="section-subtitle">Highly trained and skilled professionals with many years of experience in mental health practice.</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="./images/team-1.jpg" alt="Benedict O Sama">
+                <div class="info">
+                    <h4>Benedict O Sama</h4>
+                    <div class="role">Head Of Program</div>
+                    <p>PhD in Clinical Psychology with 15+ years of experience in trauma and anxiety disorders.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="./images/team-2.jpg" alt="Yemisi Benson">
+                <div class="info">
+                    <h4>Yemisi Benson</h4>
+                    <div class="role">Clinical Psychologist</div>
+                    <p>MBBS, FWACP with expertise in mood disorders, psychotic disorders, and medication management.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="./images/team-3.jpg" alt="Rebecca Ayankojo">
+                <div class="info">
+                    <h4>Rebecca Ayankojo</h4>
+                    <div class="role">Clinical Psychologist</div>
+                    <p>MSc in Counselling Psychology, specializing in adolescent mental health and family therapy.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="./images/team-4.jpg" alt="Dr. Oyedokun Shakiru">
+                <div class="info">
+                    <h4>Dr. Oyedokun Shakiru</h4>
+                    <div class="role">Consultant Psychiatrist</div>
+                    <p>DClinPsy with advanced training in CBT, DBT, and EMDR for complex trauma cases.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+    <div class="container">
+        <h2>Let Us <span class="gold-text">Support You</span></h2>
+        <p>Our team is ready to help you on your journey to better mental health. Reach out today.</p>
+        <a href="contact.html" class="btn-primary">Get in Touch</a>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="./images/citi logo.jpg" alt="CITICARE Logo">
+                    <div class="logo-text">
+                        <span class="brand">CITI<span>CARE</span></span>
+                        <span class="tagline">CHILD & ADOLESCENT WELLNESS</span>
+                    </div>
+                </a>
+                <p style="margin-top: 12px;">Providing a golden touch in child and adolescent mental wellness across Nigeria. Delivering evidence-based, compassionate care that helps young people and their families thrive.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="online-therapy.html">Online Therapy</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="services.html#cbt">CBT</a></li>
+                    <li><a href="services.html#dbt">DBT</a></li>
+                    <li><a href="services.html#emdr">EMDR</a></li>
+                    <li><a href="services.html#erp">ERP</a></li>
+                    <li><a href="services.html#habit-reversal">Habit Reversal</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="contact.html"><i class="fas fa-phone" style="color: var(--gold); width: 20px;"></i> +2347063695438</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope" style="color: var(--gold); width: 20px;"></i> info@citicareservices.com</a></li>
+                    <li><a href="contact.html"><i class="fas fa-map-marker-alt" style="color: var(--gold); width: 20px;"></i> Nigeria</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 CITICARE. All rights reserved.</span>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

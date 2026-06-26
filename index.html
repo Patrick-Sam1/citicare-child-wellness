@@ -1,0 +1,1966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Child Development, Child Wellness, Child Mental Health, Child Psychology, Child Therapy, Child Counselling, Child Behaviour Support, Early Childhood Development, Speech Delay Therapy, Speech and Language Therapy for Children, Autism Support for Children, Autism Therapy, ADHD Support for Children, Child Assessment Services, Developmental Milestones, Pediatric Therapy, Child Emotional Wellbeing, Child Learning Support, Behavioural Therapy for Children, Early Intervention Services, Family Support Services, Adolescent Mental Health, Child and Adolescent Wellness, Child Development Specialists, Evidence-Based Child Therapy, Child Communication Skills, Social Skills Development, Parenting Support, Developmental Screening, Children's Wellbeing, Special Needs Support for Children, Healthy Child Development, Citicare Child & Adolescent Wellness">
+    <meta name="description" content="Expert child development, speech therapy, autism support, ADHD intervention, and mental wellness services for children and adolescents.">
+    <title>Home - Child Development, Autism, ADHD, ABA & Speech Therapy</title>
+    <meta property="og:title" content="Citicare Child & Adolescent Wellness | Child Development & Therapy Services">
+    <meta property="og:description" content="Expert child development, speech therapy, autism support, ADHD intervention, and mental wellness services for children and adolescents.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.citicarewellness.com">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Citicare Child & Adolescent Wellness">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,600;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/citi logo.jpg">
+    <style>
+        /* ===== TOP CONTACT BAR - WHITE BACKGROUND ===== */
+        .top-contact-bar {
+            background: #FFFFFF;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+        }
+
+        .top-contact-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px 20px;
+        }
+
+        .top-contact-bar .contact-items {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .top-contact-bar .contact-items a {
+            color: #555;
+            text-decoration: none;
+            font-size: 0.82rem;
+            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            white-space: nowrap;
+        }
+
+        .top-contact-bar .contact-items a:hover {
+            color: var(--gold);
+        }
+
+        .top-contact-bar .contact-items i {
+            color: var(--gold);
+            font-size: 0.85rem;
+            width: 16px;
+            text-align: center;
+        }
+
+        .top-contact-bar .social-icons {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .top-contact-bar .social-icons a {
+            color: #999;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .top-contact-bar .social-icons a:hover {
+            color: var(--gold);
+        }
+
+        .top-contact-bar .contact-divider {
+            color: #ddd;
+            font-size: 0.8rem;
+        }
+
+        /* ===== FLOATING WHATSAPP BUTTON - BOTTOM LEFT ===== */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .whatsapp-float a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            color: white;
+            border-radius: 50%;
+            font-size: 2rem;
+            text-decoration: none;
+            box-shadow: 0 6px 25px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+            animation: pulse-whatsapp 2s infinite;
+        }
+
+        .whatsapp-float a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 35px rgba(37, 211, 102, 0.5);
+        }
+
+        .whatsapp-float .tooltip {
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .whatsapp-float:hover .tooltip {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @keyframes pulse-whatsapp {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            padding: 12px 0;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-text .brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--dark);
+            line-height: 1;
+        }
+
+        .logo-text .brand span {
+            color: var(--gold);
+        }
+
+        .logo-text .tagline {
+            font-size: 0.65rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #888;
+            font-weight: 400;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gold);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        .nav-links a.active {
+            color: var(--gold);
+        }
+
+        .nav-cta {
+            background: var(--gold) !important;
+            color: var(--white) !important;
+            padding: 10px 28px !important;
+            border-radius: 50px !important;
+            transition: all 0.3s ease !important;
+        }
+
+        .nav-cta::after {
+            display: none !important;
+        }
+
+        .nav-cta:hover {
+            background: var(--gold-dark) !important;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(201, 168, 76, 0.3);
+        }
+
+        .hamburger {
+            display: none;
+            font-size: 1.6rem;
+            cursor: pointer;
+            color: var(--dark);
+            background: none;
+            border: none;
+        }
+
+        /* ===== HERO SLIDESHOW ===== */
+        .hero-slideshow {
+            position: relative;
+            min-height: 90vh;
+            overflow: hidden;
+        }
+
+        .hero-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0;
+            transition: opacity 1.2s ease-in-out;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-slide.active {
+            opacity: 1;
+        }
+
+        .hero-slide::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(26, 26, 26, 0.65) 0%, rgba(26, 26, 26, 0.3) 100%);
+            z-index: 1;
+        }
+
+        .hero-slide .container {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+        }
+
+        .hero-slide .hero-content {
+            max-width: 750px;
+            padding: 40px 0;
+        }
+
+        .hero-slide .hero-content h1 {
+            font-size: 4rem;
+            line-height: 1.05;
+            color: var(--white);
+            margin-bottom: 12px;
+        }
+
+        .hero-slide .hero-content .sub-headline {
+            font-size: 1.3rem;
+            color: rgba(255,255,255,0.92);
+            margin-bottom: 8px;
+            font-weight: 300;
+        }
+
+        .hero-slide .hero-content p {
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.85);
+            margin-bottom: 32px;
+            max-width: 600px;
+        }
+
+        .hero-slide .hero-content .section-tag {
+            color: var(--gold-light);
+            border-bottom-color: var(--gold-light);
+        }
+
+        /* Slide Indicators */
+        .slide-indicators {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 12px;
+            z-index: 10;
+        }
+
+        .slide-indicator {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            border: 2px solid rgba(255,255,255,0.6);
+            background: transparent;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            padding: 0;
+        }
+
+        .slide-indicator.active {
+            background: var(--gold);
+            border-color: var(--gold);
+            transform: scale(1.2);
+        }
+
+        .slide-indicator:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .slide-indicator.active:hover {
+            background: var(--gold);
+        }
+
+        /* Slide Arrows */
+        .slide-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 10;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(8px);
+            border: 2px solid rgba(255,255,255,0.3);
+            color: var(--white);
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            font-size: 1.4rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .slide-arrow:hover {
+            background: var(--gold);
+            border-color: var(--gold);
+        }
+
+        .slide-arrow.prev {
+            left: 24px;
+        }
+
+        .slide-arrow.next {
+            right: 24px;
+        }
+
+        /* Slide Number */
+        .slide-counter {
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+            color: rgba(255,255,255,0.6);
+            font-size: 0.9rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+            z-index: 10;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .slide-counter span {
+            color: var(--white);
+            font-weight: 600;
+        }
+
+        .hero-slideshow::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 120px;
+            background: linear-gradient(to top, #FFFFFF 0%, transparent 100%);
+            z-index: 5;
+            pointer-events: none;
+        }
+
+        /* ===== FEATURES ===== */
+        .features {
+            padding: 80px 0;
+            background: var(--gray-light);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: var(--white);
+            padding: 40px 28px;
+            border-radius: 16px;
+            text-align: center;
+            transition: all 0.4s ease;
+            border-bottom: 4px solid var(--gold);
+            box-shadow: var(--shadow);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .feature-card .feature-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 16px;
+            border: 4px solid var(--gold);
+            box-shadow: 0 4px 15px rgba(201, 168, 76, 0.25);
+        }
+
+        .feature-card .feature-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .feature-card h3 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+        }
+
+        .feature-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* ===== ABOUT PREVIEW ===== */
+        .about-preview {
+            padding: 100px 0;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-image {
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: var(--shadow-hover);
+        }
+
+        .about-image img {
+            width: 100%;
+            height: 480px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .about-text p {
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        /* ===== SERVICES PREVIEW ===== */
+        .services-preview {
+            padding: 80px 0;
+            background: var(--gray-light);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .service-card {
+            background: var(--white);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.4s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .service-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .service-card .content {
+            padding: 24px 28px 28px;
+        }
+
+        .service-card .content h3 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .service-card .content p {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+        }
+
+        .service-card .content .learn-more {
+            color: var(--gold);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .service-card .content .learn-more:hover {
+            color: var(--gold-dark);
+        }
+
+        /* ===== VIDEO SECTION ===== */
+        .video-section {
+            padding: 80px 0;
+            background: var(--gray-light);
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+        }
+
+        .video-card {
+            background: var(--white);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.4s ease;
+        }
+
+        .video-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .video-card .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-card .video-wrapper video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .video-card .content {
+            padding: 24px 28px 28px;
+        }
+
+        .video-card .content h3 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin-bottom: 6px;
+        }
+
+        .video-card .content p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* ===== TESTIMONIALS ===== */
+        .testimonials {
+            padding: 80px 0;
+            background: var(--white);
+        }
+
+        .testimonial-carousel {
+            position: relative;
+            overflow: hidden;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .testimonial-track {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .testimonial-slide {
+            min-width: 100%;
+            padding: 20px;
+        }
+
+        .testimonial-card {
+            background: var(--gray-light);
+            padding: 40px 48px;
+            border-radius: 16px;
+            text-align: center;
+            border-left: 5px solid var(--gold);
+        }
+
+        .testimonial-card .stars {
+            color: var(--gold);
+            font-size: 1.2rem;
+            margin-bottom: 16px;
+        }
+
+        .testimonial-card blockquote {
+            font-size: 1.15rem;
+            font-style: italic;
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .testimonial-card .client-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .testimonial-card .client-info img {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--gold);
+        }
+
+        .testimonial-card .client-info .name {
+            font-weight: 700;
+            color: var(--dark);
+        }
+
+        .testimonial-card .client-info .title {
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        .carousel-controls {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 30px;
+        }
+
+        .carousel-btn {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 2px solid var(--gold);
+            background: transparent;
+            color: var(--gold);
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .carousel-btn:hover {
+            background: var(--gold);
+            color: var(--white);
+        }
+
+        .carousel-dots {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 16px;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--gray-medium);
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .dot.active {
+            background: var(--gold);
+            transform: scale(1.2);
+        }
+
+        /* ===== VALUES ===== */
+        .values {
+            padding: 80px 0;
+            background: var(--gray-light);
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+
+        .value-item {
+            text-align: center;
+            padding: 32px 20px;
+            background: var(--white);
+            border-radius: 16px;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow);
+        }
+
+        .value-item:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .value-item .value-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 16px;
+            border: 3px solid var(--gold);
+        }
+
+        .value-item .value-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .value-item h4 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .value-item p {
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        /* ===== BLOG ===== */
+        .blog {
+            padding: 80px 0;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .blog-card {
+            background: var(--white);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.4s ease;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .blog-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .blog-card .content {
+            padding: 24px 28px 28px;
+        }
+
+        .blog-card .content .date {
+            font-size: 0.8rem;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .blog-card .content h3 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin: 8px 0 12px;
+        }
+
+        .blog-card .content p {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+        }
+
+        .blog-card .content .read-more {
+            color: var(--gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* ===== CTA BANNER ===== */
+        .cta-banner {
+            background: linear-gradient(135deg, var(--dark) 0%, #2a2a2a 100%);
+            padding: 80px 0;
+            text-align: center;
+            color: var(--white);
+            position: relative;
+        }
+
+        .cta-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gold-gradient);
+        }
+
+        .cta-banner h2 {
+            color: var(--white);
+            font-size: 2.8rem;
+            margin-bottom: 12px;
+        }
+
+        .cta-banner p {
+            color: rgba(255,255,255,0.8);
+            max-width: 600px;
+            margin: 0 auto 32px auto;
+            font-size: 1.1rem;
+        }
+
+        .cta-banner .btn-primary {
+            background: var(--white);
+            color: var(--dark);
+            border-color: var(--white);
+        }
+
+        .cta-banner .btn-primary:hover {
+            background: var(--gold);
+            color: var(--white);
+            border-color: var(--gold);
+        }
+
+        /* ===== BUTTONS ===== */
+        .btn-primary {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--white);
+            font-weight: 600;
+            padding: 16px 44px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid var(--gold);
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+            box-shadow: 0 8px 25px rgba(201, 168, 76, 0.3);
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background: var(--gold-dark);
+            border-color: var(--gold-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(201, 168, 76, 0.4);
+        }
+
+        .btn-secondary {
+            display: inline-block;
+            background: transparent;
+            color: var(--gold);
+            font-weight: 600;
+            padding: 16px 44px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid var(--gold);
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+        }
+
+        .btn-secondary:hover {
+            background: var(--gold);
+            color: var(--white);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(201, 168, 76, 0.3);
+        }
+
+        .btn-outline-light {
+            display: inline-block;
+            background: transparent;
+            color: var(--white);
+            font-weight: 600;
+            padding: 16px 44px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid var(--white);
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+        }
+
+        .btn-outline-light:hover {
+            background: var(--white);
+            color: var(--dark);
+            transform: translateY(-3px);
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: #111;
+            color: #aaa;
+            padding: 60px 0 30px 0;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-brand .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .footer-brand .logo img {
+            height: 45px;
+            width: auto;
+        }
+
+        .footer-brand .logo-text .brand {
+            color: var(--white);
+            font-size: 1.4rem;
+        }
+
+        .footer-brand .logo-text .brand span {
+            color: var(--gold);
+        }
+
+        .footer-brand .logo-text .tagline {
+            color: #888;
+        }
+
+        .footer-brand p {
+            font-size: 0.95rem;
+            max-width: 300px;
+        }
+
+        .footer-links h4 {
+            color: var(--white);
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            margin-bottom: 16px;
+            font-size: 1rem;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links ul a {
+            color: #aaa;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .footer-links ul a:hover {
+            color: var(--gold);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #333;
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 16px;
+        }
+
+        .footer-social a {
+            color: #aaa;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-social a:hover {
+            color: var(--gold);
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 992px) {
+            .top-contact-bar .container {
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+            }
+
+            .top-contact-bar .contact-items {
+                justify-content: center;
+                gap: 12px 18px;
+            }
+
+            .top-contact-bar .social-icons {
+                justify-content: center;
+            }
+
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .values-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .blog-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .video-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .hero-slide .hero-content h1 {
+                font-size: 3rem;
+            }
+
+            .slide-arrow {
+                width: 44px;
+                height: 44px;
+                font-size: 1rem;
+            }
+
+            .slide-arrow.prev {
+                left: 12px;
+            }
+
+            .slide-arrow.next {
+                right: 12px;
+            }
+
+            .whatsapp-float {
+                bottom: 20px;
+                left: 20px;
+            }
+
+            .whatsapp-float a {
+                width: 50px;
+                height: 50px;
+                font-size: 1.6rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .top-contact-bar .contact-items {
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+            }
+
+            .top-contact-bar .contact-items a {
+                font-size: 0.75rem;
+            }
+
+            .top-contact-bar .contact-divider {
+                display: none;
+            }
+
+            .top-contact-bar .social-icons {
+                margin-top: 4px;
+            }
+
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                background: var(--white);
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                padding: 24px 32px;
+                box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+                gap: 16px;
+                border-top: 1px solid #eee;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .hero-slide .hero-content h1 {
+                font-size: 2.4rem;
+            }
+
+            .hero-slide .hero-content .sub-headline {
+                font-size: 1rem;
+            }
+
+            .hero-slide .hero-content p {
+                font-size: 0.95rem;
+            }
+
+            .slide-arrow {
+                display: none;
+            }
+
+            .slide-counter {
+                display: none;
+            }
+
+            .slide-indicators {
+                bottom: 24px;
+                gap: 8px;
+            }
+
+            .slide-indicator {
+                width: 10px;
+                height: 10px;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-banner h2 {
+                font-size: 2rem;
+            }
+
+            .whatsapp-float {
+                bottom: 16px;
+                left: 16px;
+            }
+
+            .whatsapp-float a {
+                width: 48px;
+                height: 48px;
+                font-size: 1.4rem;
+            }
+
+            .whatsapp-float .tooltip {
+                display: none;
+            }
+
+            .about-image img {
+                height: 300px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-slide .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .hero-slide .hero-content .sub-headline {
+                font-size: 0.9rem;
+            }
+
+            .hero-slideshow {
+                min-height: 70vh;
+            }
+
+            .logo img {
+                height: 40px;
+            }
+
+            .logo-text .brand {
+                font-size: 1.2rem;
+            }
+
+            .top-contact-bar .contact-items a {
+                font-size: 0.7rem;
+            }
+
+            .whatsapp-float {
+                bottom: 12px;
+                left: 12px;
+            }
+
+            .whatsapp-float a {
+                width: 44px;
+                height: 44px;
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===== TOP CONTACT BAR - WHITE BACKGROUND ===== -->
+<div class="top-contact-bar">
+    <div class="container">
+        <div class="contact-items">
+            <a href="tel:+2347063695438">
+                <i class="fas fa-phone"></i> +2347063695438
+            </a>
+            <span class="contact-divider">|</span>
+            <a href="mailto:info@citicareservices.com">
+                <i class="fas fa-envelope"></i> info@citicareservices.com
+            </a>
+            <span class="contact-divider">|</span>
+            <a href="#">
+                <i class="fas fa-map-marker-alt"></i> 1, Rotimi Adeola Street Oriokuta, Lagos
+            </a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="./images/citi logo.jpg" alt="CITICARE Logo">
+                <div class="logo-text">
+                    <span class="brand">CITI<span>CARE</span></span>
+                    <span class="tagline">CHILD & ADOLESCENT WELLNESS</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html"  class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="aba.html">ABA Therapy</a></li>
+                <li><a href="online-therapy.html">Online Therapy</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="nav-cta">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </div>
+</header>
+
+<!-- ===== FLOATING WHATSAPP BUTTON - BOTTOM LEFT ===== -->
+<div class="whatsapp-float">
+    <a href="https://wa.me/2347063695438" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <span class="tooltip">Chat with us</span>
+</div>
+
+<!-- ===== HERO SLIDESHOW ===== -->
+<section class="hero-slideshow" id="heroSlideshow">
+    <!-- Slide 1: Depression & Emotional Support -->
+    <div class="hero-slide active" data-index="0" style="background-image: url('./images/developmental.jpg');">
+        <div class="container">
+            <div class="hero-content">
+                <span class="section-tag">Finding Hope</span>
+                <h1>Developmental <br><span class="gold-text"> Disorders</span></h1>
+                <div class="sub-headline">We provide evidence based interventions for autism spectrum disorder, ADHD and social communication disorder in a conducive and child's friendly environment.</div>
+                <p>We engaged evidence based practice using the principles of Applied Behaviour Analysis (ABA).</p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn-primary">Book a Consultation</a>
+                    <a href="services.html" class="btn-outline-light">Explore Our Services</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2: Anxiety & Stress Relief -->
+    <div class="hero-slide" data-index="1" style="background-image: url('./images/headerimage2.jpg');">
+        <div class="container">
+            <div class="hero-content">
+                <span class="section-tag">Finding Peace</span>
+                <h1>Healing <br><span class="gold-text">Young Hearts</span></h1>
+                <div class="sub-headline">Compassionate care for every child</div>
+                <p>Gentle support to help your child feel safe, understood, and emotionally secure again.</p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn-primary">Book a Consultation</a>
+                    <a href="services.html#cbt" class="btn-outline-light">Learn About CBT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3: Trauma Recovery & Healing -->
+    <div class="hero-slide" data-index="2" style="background-image: url('./images/managing\ stress.jpg');">
+        <div class="container">
+            <div class="hero-content">
+                <span class="section-tag">Finding Strength</span>
+                <h1>Trauma <br><span class="gold-text">Recovery & Healing</span></h1>
+                <div class="sub-headline">Helping your child feel safe, strong, and hopeful again.</div>
+                <p>Supportive therapies for children and adolescents to work through tough experiences and grow with confidence.</p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn-primary">Book a Consultation</a>
+                    <a href="services.html#emdr" class="btn-outline-light">Learn About EMDR</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide Controls -->
+    <button class="slide-arrow prev" id="slidePrev" aria-label="Previous slide">
+        <i class="fas fa-chevron-left"></i>
+    </button>
+    <button class="slide-arrow next" id="slideNext" aria-label="Next slide">
+        <i class="fas fa-chevron-right"></i>
+    </button>
+
+    <!-- Slide Indicators -->
+    <div class="slide-indicators" id="slideIndicators">
+        <button class="slide-indicator active" data-index="0" aria-label="Slide 1"></button>
+        <button class="slide-indicator" data-index="1" aria-label="Slide 2"></button>
+        <button class="slide-indicator" data-index="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Slide Counter -->
+    <div class="slide-counter">
+        <span id="currentSlideNum">01</span> / <span id="totalSlidesNum">03</span>
+    </div>
+</section>
+
+<!-- ===== FEATURES ===== -->
+<section class="features">
+    <div class="container">
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-image">
+                    <img src="./images/headerimage2.jpg" alt="Child receiving in-person therapy">
+                </div>
+                <h3>In-Person Therapy</h3>
+                <p>Compassionate, face-to-face sessions in a calming, professional environment tailored to your child's needs.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-image">
+                    <img src="./images/what-is-online.jpg" alt="Child in online therapy session">
+                </div>
+                <h3>Online / Virtual Therapy</h3>
+                <p>Access expert care from anywhere via secure video, phone, or chat — flexible and convenient for families.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-image">
+                    <img src="./images/erp .jpg" alt="Child receiving specialized treatment">
+                </div>
+                <h3>Specialized Treatments</h3>
+                <p>Evidence-based approaches including CBT, DBT, EMDR, and more to address a wide range of childhood concerns.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== ABOUT PREVIEW ===== -->
+<section class="about-preview">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-image">
+                <img src="./images/ben1.png" alt="Citicare professional therapy session">
+            </div>
+            <div class="about-text">
+                <span class="section-tag">About Citicare</span>
+                <h2 class="section-title">Your Partner in <br><span class="gold-text">Child & Adolescent Wellness</span></h2>
+                <p>Citicare Child & Adolescent Wellness is dedicated to supporting the mental and emotional well-being of children and adolescents. We provide compassionate, evidence-based care including assessment, counselling, psychotherapy, and family support tailored to each child’s needs.</p>
+                <p>Our focus is helping children feel safe, understood, and supported as they learn to manage emotions, build resilience, and grow in confidence. We are committed to closing the gap in mental health care by ensuring every child has access to quality, personalised psychological support.</p>
+                <a href="about.html" class="btn-primary" style="margin-top: 10px;">Meet Our Team</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SERVICES PREVIEW ===== -->
+<section class="services-preview">
+    <div class="container">
+        <div class="text-center">
+            <span class="section-tag">Our Services</span>
+            <h2 class="section-title">Evidence-Based <br><span class="gold-text">Therapeutic Approaches</span></h2>
+            <p class="section-subtitle">We offer a wide range of psychological services using proven methodologies to support your child's mental health journey.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="./images/cbt new.jpg" alt="CBT Therapy Session">
+                <div class="content">
+                    <h3>Cognitive Behaviour Therapy (CBT)</h3>
+                    <p>Pragmatic, structured approach focusing on current difficulties and collaborative therapeutic relationships for children and teens.</p>
+                    <a href="services.html#cbt" class="learn-more">Learn More →</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="./images/dbt1.jpg" alt="DBT Therapy Session">
+                <div class="content">
+                    <h3>Dialectical Behaviour Therapy (DBT)</h3>
+                    <p>Evidence-based treatment for adolescents dealing with distressing emotions and self-destructive behaviours.</p>
+                    <a href="services.html#dbt" class="learn-more">Learn More →</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="./images/emdr1.jpg" alt="EMDR Therapy Session">
+                <div class="content">
+                    <h3>Eye Movement Desensitization Reprocessing</h3>
+                    <p>Distinct treatment approach using bilateral stimulation to help children process distressing, "frozen" memories.</p>
+                    <a href="services.html#emdr" class="learn-more">Learn More →</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center" style="margin-top: 40px;">
+            <a href="services.html" class="btn-secondary">View All Services</a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== VIDEO INSIGHTS ===== -->
+<section class="video-section">
+    <div class="container">
+        <div class="text-center">
+            <span class="section-tag">Video Insights</span>
+            <h2 class="section-title">Successful <span class="gold-text">Psychotherapy Sessions</span></h2>
+            <p class="section-subtitle">Get insight into the success stories of concluded psychotherapy cases that leave clients with a happy ending.</p>
+        </div>
+        <div class="video-grid">
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <video controls poster="./images/therapist2.jpg">
+                        <source src="./videos/Opening the Doors_ Revolutionising Child Therapy.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="content">
+                    <h3>Discussion on Child Psychotherapy Case and Treatment</h3>
+                    <p>Overview of professional care and support throughout the therapeutic journey for young clients.</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <video controls poster="./images/dad&baby.jpg">
+                        <source src="./videos/How to talk to your kids about mental health I UNICEF.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="content">
+                    <h3>Appreciation of Session Usefulness</h3>
+                    <p>A happy look back at the whole process, from initial assessment to final recovery for children and families.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== TESTIMONIALS CAROUSEL ===== -->
+<section class="testimonials">
+    <div class="container">
+        <div class="text-center">
+            <span class="section-tag">Testimonials</span>
+            <h2 class="section-title">What Our <span class="gold-text">Clients Say</span></h2>
+            <p class="section-subtitle">Real stories from families who have experienced transformation through our care.</p>
+        </div>
+        <div class="testimonial-carousel" id="testimonialCarousel">
+            <div class="testimonial-track" id="testimonialTrack">
+                <div class="testimonial-slide">
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <blockquote>"I had a great experience with Citicare team and they were excellent in their approaches and service delivery. They truly understand the unique challenges our children face."</blockquote>
+                        <div class="client-info">
+                            <img src="images/client 2.jpg" alt="Client photo">
+                            <div>
+                                <div class="name">Adewale D.</div>
+                                <div class="title">Parent</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <blockquote>"My experience with the Citicare psychology clinic was a life changing experience for my child. Believe me, they are life savers. We found hope and healing."</blockquote>
+                        <div class="client-info">
+                            <img src="./images/homeofR.jpg" alt="Client photo">
+                            <div>
+                                <div class="name">Awosanya O.</div>
+                                <div class="title">Parent</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <blockquote>"The level of care and professionalism is unmatched. My child finally feels understood and equipped to handle life's challenges with confidence and peace."</blockquote>
+                        <div class="client-info">
+                            <img src="images/happy image.jpg" alt="Client photo">
+                            <div>
+                                <div class="name">Faith O.</div>
+                                <div class="title">Parent</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== VALUES ===== -->
+<section class="values">
+    <div class="container">
+        <div class="text-center">
+            <span class="section-tag">Our Values</span>
+            <h2 class="section-title">The Principles That <br><span class="gold-text">Guide Us</span></h2>
+            <p class="section-subtitle">Our commitment to excellence is rooted in these core values that define every interaction with children and families.</p>
+        </div>
+        <div class="values-grid">
+            <div class="value-item">
+                <div class="value-image">
+                    <img src="./images/dbt1.jpg" alt="Professionalism with children">
+                </div>
+                <h4>Professionalism</h4>
+                <p>We apply best practice principles and conduct ourselves ethically to deliver professional psychological services for children and families.</p>
+            </div>
+            <div class="value-item">
+                <div class="value-image">
+                    <img src="./images/strong relationship.jpg" alt="Building strong relationships with children">
+                </div>
+                <h4>Strong Relationship</h4>
+                <p>We value strong relationships as the primary vehicle for helping children achieve mental health and new ways of thinking.</p>
+            </div>
+            <div class="value-item">
+                <div class="value-image">
+                    <img src="./images/competent image.jpg" alt="Competent child therapists">
+                </div>
+                <h4>Competency</h4>
+                <p>Our professional personnel possess the skills, knowledge, and experience to provide effective care for children within their expertise.</p>
+            </div>
+            <div class="value-item">
+                <div class="value-image">
+                    <img src="./images/confidential image.jpg" alt="Confidentiality with children">
+                </div>
+                <h4>Confidentiality</h4>
+                <p>Your child's privacy is taken very seriously. We provide a safe place where they can talk freely, without fear.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== BLOG PREVIEW ===== -->
+<section class="blog">
+    <div class="container">
+        <div class="text-center">
+            <span class="section-tag">Blog & Resources</span>
+            <h2 class="section-title">Latest <span class="gold-text">Insights</span></h2>
+            <p class="section-subtitle">Stay informed with our latest articles on child mental health, therapy, and wellness.</p>
+        </div>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="./images/speech.avif" alt="Mental wellness tips for children">
+                <div class="content">
+                    <div class="date">January 15, 2025</div>
+                    <h3>Tips to Feeling Better Mentally for Kids</h3>
+                    <p>Be sure to make time for a short, 5 minute break each hour to help your child unwind and refocus, no matter what they're doing.</p>
+                    <a href="blog.html#post1" class="read-more">Read More →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="./images/therapy.jpg" alt="Therapy progress for children">
+                <div class="content">
+                    <div class="date">March 28, 2026</div>
+                    <h3>How to Know if Child Therapy is Working</h3>
+                    <p>Your child has been having therapy for a while now. They like their therapist and things are beginning to feel a little lighter...</p>
+                    <a href="blog.html#post2" class="read-more">Read More →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="./images/Tackling-Childhood.webp" alt="Depression and children's health">
+                <div class="content">
+                    <div class="date">June 5, 2026</div>
+                    <h3>Can Childhood Depression Make Your Child Sick?</h3>
+                    <p>There is a strong link between your child's brain and gastrointestinal system, therefore depression, anxiety, and stress can hinder the movement...</p>
+                    <a href="blog.html#post3" class="read-more">Read More →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+    <div class="container">
+        <h2>Ready to Begin Your Child's <span class="gold-text">Journey?</span></h2>
+        <p>Take the first step toward better mental health for your child. Book a free consultation with one of our expert therapists today.</p>
+        <a href="contact.html" class="btn-primary">Book a Consultation</a>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="./images/citi logo.jpg" alt="CITICARE Logo">
+                    <div class="logo-text">
+                        <span class="brand">CITI<span>CARE</span></span>
+                        <span class="tagline">CHILD & ADOLESCENT WELLNESS</span>
+                    </div>
+                </a>
+                <p style="margin-top: 12px;">Providing a golden touch in child and adolescent mental wellness across Nigeria. Delivering evidence-based, compassionate care that helps young people and their families thrive.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="online-therapy.html">Online Therapy</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="services.html#cbt">CBT</a></li>
+                    <li><a href="services.html#dbt">DBT</a></li>
+                    <li><a href="services.html#emdr">EMDR</a></li>
+                    <li><a href="services.html#erp">ERP</a></li>
+                    <li><a href="services.html#habit-reversal">Habit Reversal</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="contact.html"><i class="fas fa-phone" style="color: var(--gold); width: 20px;"></i> +2347063695438</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope" style="color: var(--gold); width: 20px;"></i> info@citicareservices.com</a></li>
+                    <li><a href="contact.html"><i class="fas fa-map-marker-alt" style="color: var(--gold); width: 20px;"></i> 1, Rotimi Adeola Street Oriokuta, Lagos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 CITICARE. All rights reserved.</span>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- ===== JAVASCRIPT ===== -->
+<script>
+// ===== MOBILE MENU TOGGLE =====
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+if (hamburger && navLinks) {
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        const icon = hamburger.querySelector('i');
+        if (icon) {
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        }
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+            const icon = hamburger.querySelector('i');
+            if (icon) {
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-times');
+            }
+        });
+    });
+}
+
+// ===== TESTIMONIALS CAROUSEL =====
+const testimonialTrack = document.getElementById('testimonialTrack');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+const dotsContainer = document.getElementById('carouselDots');
+
+if (testimonialTrack && prevBtn && nextBtn && dotsContainer) {
+    const slides = testimonialTrack.querySelectorAll('.testimonial-slide');
+    let currentIndex = 0;
+    const totalSlides = slides.length;
+
+    slides.forEach((_, index) => {
+        const dot = document.createElement('button');
+        dot.className = `dot ${index === 0 ? 'active' : ''}`;
+        dot.setAttribute('data-index', index);
+        dot.addEventListener('click', () => goToSlide(index));
+        dotsContainer.appendChild(dot);
+    });
+
+    const dots = dotsContainer.querySelectorAll('.dot');
+
+    function goToSlide(index) {
+        if (index < 0) index = totalSlides - 1;
+        if (index >= totalSlides) index = 0;
+        currentIndex = index;
+        testimonialTrack.style.transform = `translateX(-${currentIndex * 100}%)`;
+        dots.forEach((dot, i) => {
+            dot.classList.toggle('active', i === currentIndex);
+        });
+    }
+
+    nextBtn.addEventListener('click', () => goToSlide(currentIndex + 1));
+    prevBtn.addEventListener('click', () => goToSlide(currentIndex - 1));
+
+    let autoPlayInterval = setInterval(() => goToSlide(currentIndex + 1), 6000);
+    const carousel = document.querySelector('.testimonial-carousel');
+    if (carousel) {
+        carousel.addEventListener('mouseenter', () => clearInterval(autoPlayInterval));
+        carousel.addEventListener('mouseleave', () => {
+            autoPlayInterval = setInterval(() => goToSlide(currentIndex + 1), 6000);
+        });
+    }
+}
+
+// ===== HERO SLIDESHOW =====
+document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelectorAll('.hero-slide');
+    const indicators = document.querySelectorAll('.slide-indicator');
+    const prevBtn = document.getElementById('slidePrev');
+    const nextBtn = document.getElementById('slideNext');
+    const currentNum = document.getElementById('currentSlideNum');
+    const totalNum = document.getElementById('totalSlidesNum');
+    let currentSlide = 0;
+    const totalSlides = slides.length;
+    let autoPlayInterval;
+
+    if (totalNum) {
+        totalNum.textContent = String(totalSlides).padStart(2, '0');
+    }
+
+    function goToSlide(index) {
+        slides.forEach(slide => slide.classList.remove('active'));
+        indicators.forEach(ind => ind.classList.remove('active'));
+
+        slides[index].classList.add('active');
+        indicators[index].classList.add('active');
+
+        if (currentNum) {
+            currentNum.textContent = String(index + 1).padStart(2, '0');
+        }
+
+        currentSlide = index;
+    }
+
+    function nextSlide() {
+        const next = (currentSlide + 1) % totalSlides;
+        goToSlide(next);
+    }
+
+    function prevSlide() {
+        const prev = (currentSlide - 1 + totalSlides) % totalSlides;
+        goToSlide(prev);
+    }
+
+    if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+            nextSlide();
+            resetAutoPlay();
+        });
+    }
+
+    if (prevBtn) {
+        prevBtn.addEventListener('click', () => {
+            prevSlide();
+            resetAutoPlay();
+        });
+    }
+
+    indicators.forEach((indicator, index) => {
+        indicator.addEventListener('click', () => {
+            goToSlide(index);
+            resetAutoPlay();
+        });
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') {
+            nextSlide();
+            resetAutoPlay();
+        } else if (e.key === 'ArrowLeft') {
+            prevSlide();
+            resetAutoPlay();
+        }
+    });
+
+    function startAutoPlay() {
+        autoPlayInterval = setInterval(nextSlide, 6000);
+    }
+
+    function resetAutoPlay() {
+        clearInterval(autoPlayInterval);
+        startAutoPlay();
+    }
+
+    const heroSection = document.getElementById('heroSlideshow');
+    if (heroSection) {
+        heroSection.addEventListener('mouseenter', () => {
+            clearInterval(autoPlayInterval);
+        });
+        heroSection.addEventListener('mouseleave', startAutoPlay);
+    }
+
+    startAutoPlay();
+
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    if (heroSection) {
+        heroSection.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+
+        heroSection.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            const diff = touchStartX - touchEndX;
+            if (Math.abs(diff) > 50) {
+                if (diff > 0) {
+                    nextSlide();
+                } else {
+                    prevSlide();
+                }
+                resetAutoPlay();
+            }
+        }, { passive: true });
+    }
+});
+</script>
+
+</body>
+</html>

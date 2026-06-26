@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Applied Behavior Analysis, ABA Therapy, Autism Support, Autism Therapy, Child Development, Child Wellness, Child Mental Health, Child Psychology, Child Therapy, Child Counselling, Child Behaviour Support, Early Childhood Development, Autism Support for Children, Autism Therapy, Child Assessment Services, Developmental Milestones, Pediatric Therapy, Child Emotional Wellbeing, Child Learning Support, Behavioural Therapy for Children, Early Intervention Services, Family Support Services, Adolescent Mental Health, Child and Adolescent Wellness, Child Development Specialists, Evidence-Based Child Therapy, Child Communication Skills, Social Skills Development, Parenting Support, Developmental Screening, Children's Wellbeing, Special Needs Support for Children, Healthy Child Development, Citicare Child & Adolescent Wellness">
+    <meta name="description" content="Expert Applied Behavior Analysis (ABA) therapy for children with autism. Evidence-based support for communication, social skills, behavior management, and daily living skills.">
+    <title>Applied Behavior Analysis (ABA) - Child Development, Autism, ADHD, ABA & Speech Therapy</title>
+    <meta property="og:title" content="Applied Behavior Analysis (ABA) Therapy | Citicare Child & Adolescent Wellness">
+    <meta property="og:description" content="Expert ABA therapy for children with autism. Evidence-based support for communication, social skills, behavior management, and daily living skills.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.citicarewellness.com">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Citicare Child & Adolescent Wellness">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,600;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/citi logo.jpg">
+    <style>
+        /* ===== VARIABLES ===== */
+        :root {
+            --gold: #C9A84C;
+            --gold-light: #F5E1A4;
+            --gold-dark: #A8892B;
+            --gold-gradient: linear-gradient(135deg, #C9A84C 0%, #F5E1A4 50%, #C9A84C 100%);
+            --white: #FFFFFF;
+            --dark: #1A1A1A;
+            --gray-light: #F8F6F0;
+            --gray-medium: #E8E3D8;
+            --shadow: 0 10px 40px rgba(0,0,0,0.08);
+            --shadow-hover: 0 20px 60px rgba(0,0,0,0.12);
+        }
+
+        /* ===== RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--dark);
+            background-color: var(--white);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ===== TYPOGRAPHY ===== */
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            color: var(--dark);
+        }
+
+        .gold-text {
+            color: var(--gold);
+        }
+
+        .section-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 12px;
+            border-bottom: 2px solid var(--gold);
+            padding-bottom: 6px;
+        }
+
+        .section-title {
+            font-size: 2.8rem;
+            line-height: 1.15;
+            margin-bottom: 16px;
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto 48px auto;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* ===== BUTTONS ===== */
+        .btn-primary {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--white);
+            font-weight: 600;
+            padding: 16px 44px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid var(--gold);
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+            box-shadow: 0 8px 25px rgba(201, 168, 76, 0.3);
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background: var(--gold-dark);
+            border-color: var(--gold-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(201, 168, 76, 0.4);
+        }
+
+        .btn-secondary {
+            display: inline-block;
+            background: transparent;
+            color: var(--gold);
+            font-weight: 600;
+            padding: 16px 44px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid var(--gold);
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+        }
+
+        .btn-secondary:hover {
+            background: var(--gold);
+            color: var(--white);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(201, 168, 76, 0.3);
+        }
+
+        .btn-outline-light {
+            display: inline-block;
+            background: transparent;
+            color: var(--white);
+            font-weight: 600;
+            padding: 16px 44px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid var(--white);
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+        }
+
+        .btn-outline-light:hover {
+            background: var(--white);
+            color: var(--dark);
+            transform: translateY(-3px);
+        }
+
+        /* ===== TOP CONTACT BAR - WHITE BACKGROUND ===== */
+        .top-contact-bar {
+            background: #FFFFFF;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+        }
+
+        .top-contact-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px 20px;
+        }
+
+        .top-contact-bar .contact-items {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .top-contact-bar .contact-items a {
+            color: #555;
+            text-decoration: none;
+            font-size: 0.82rem;
+            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            white-space: nowrap;
+        }
+
+        .top-contact-bar .contact-items a:hover {
+            color: var(--gold);
+        }
+
+        .top-contact-bar .contact-items i {
+            color: var(--gold);
+            font-size: 0.85rem;
+            width: 16px;
+            text-align: center;
+        }
+
+        .top-contact-bar .social-icons {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .top-contact-bar .social-icons a {
+            color: #999;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .top-contact-bar .social-icons a:hover {
+            color: var(--gold);
+        }
+
+        .top-contact-bar .contact-divider {
+            color: #ddd;
+            font-size: 0.8rem;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            padding: 12px 0;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-text .brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--dark);
+            line-height: 1;
+        }
+
+        .logo-text .brand span {
+            color: var(--gold);
+        }
+
+        .logo-text .tagline {
+            font-size: 0.65rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #888;
+            font-weight: 400;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gold);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        .nav-links a.active {
+            color: var(--gold);
+        }
+
+        .nav-cta {
+            background: var(--gold) !important;
+            color: var(--white) !important;
+            padding: 10px 28px !important;
+            border-radius: 50px !important;
+            transition: all 0.3s ease !important;
+        }
+
+        .nav-cta::after {
+            display: none !important;
+        }
+
+        .nav-cta:hover {
+            background: var(--gold-dark) !important;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(201, 168, 76, 0.3);
+        }
+
+        .hamburger {
+            display: none;
+            font-size: 1.6rem;
+            cursor: pointer;
+            color: var(--dark);
+            background: none;
+            border: none;
+        }
+
+        /* ===== PAGE HEADER ===== */
+        .page-header {
+            background: linear-gradient(135deg, rgba(26, 26, 26, 0.85) 0%, rgba(26, 26, 26, 0.6) 100%),
+                        url('./images/therapist2.jpg') center/cover no-repeat;
+            padding: 80px 0 60px 0;
+            text-align: center;
+            color: var(--white);
+        }
+
+        .page-header h1 {
+            color: var(--white);
+            font-size: 3.5rem;
+            margin-bottom: 12px;
+        }
+
+        .page-header p {
+            color: rgba(255,255,255,0.85);
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* ===== ABA CONTENT ===== */
+        .aba-content {
+            padding: 60px 0;
+        }
+
+        .aba-content .intro-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .aba-content .intro-image {
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: var(--shadow-hover);
+        }
+
+        .aba-content .intro-image img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .aba-content .intro-image img:hover {
+            transform: scale(1.02);
+        }
+
+        .aba-content h2 {
+            font-size: 2.2rem;
+            margin-bottom: 16px;
+        }
+
+        .aba-content h3 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+            color: var(--gold-dark);
+        }
+
+        .aba-content p {
+            color: #555;
+            margin-bottom: 16px;
+            font-size: 1.05rem;
+        }
+
+        .aba-content .highlight-box {
+            background: var(--gray-light);
+            padding: 30px 35px;
+            border-radius: 16px;
+            border-left: 5px solid var(--gold);
+            margin: 30px 0;
+        }
+
+        .aba-content .highlight-box p {
+            margin-bottom: 0;
+        }
+
+        .aba-content ul {
+            list-style: none;
+            margin: 16px 0 24px 0;
+        }
+
+        .aba-content ul li {
+            padding: 8px 0;
+            padding-left: 32px;
+            position: relative;
+            color: #555;
+            font-size: 1.02rem;
+        }
+
+        .aba-content ul li::before {
+            content: '✦';
+            color: var(--gold);
+            font-weight: 700;
+            position: absolute;
+            left: 0;
+            font-size: 1.1rem;
+        }
+
+        .aba-content .grid-2col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .aba-content .grid-2col .card {
+            background: var(--white);
+            padding: 28px 30px;
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            border-bottom: 4px solid var(--gold);
+            transition: all 0.4s ease;
+        }
+
+        .aba-content .grid-2col .card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .aba-content .grid-2col .card h4 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: var(--gold-dark);
+        }
+
+        .aba-content .grid-2col .card p {
+            font-size: 0.98rem;
+            margin-bottom: 0;
+        }
+
+        .aba-content .grid-3col {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .aba-content .grid-3col .card {
+            background: var(--white);
+            padding: 25px 24px;
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            border-bottom: 4px solid var(--gold);
+            transition: all 0.4s ease;
+        }
+
+        .aba-content .grid-3col .card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .aba-content .grid-3col .card .icon {
+            font-size: 2.4rem;
+            color: var(--gold);
+            margin-bottom: 12px;
+        }
+
+        .aba-content .grid-3col .card h4 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin-bottom: 8px;
+        }
+
+        .aba-content .grid-3col .card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        .aba-content .cta-inline {
+            background: linear-gradient(135deg, var(--gold-light) 0%, var(--white) 100%);
+            padding: 40px 50px;
+            border-radius: 16px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .aba-content .cta-inline h3 {
+            color: var(--dark);
+            font-size: 1.6rem;
+            margin-bottom: 12px;
+        }
+
+        .aba-content .cta-inline p {
+            font-size: 1.05rem;
+            max-width: 600px;
+            margin: 0 auto 20px auto;
+        }
+
+        /* ===== CTA BANNER ===== */
+        .cta-banner {
+            background: linear-gradient(135deg, var(--dark) 0%, #2a2a2a 100%);
+            padding: 80px 0;
+            text-align: center;
+            color: var(--white);
+            position: relative;
+        }
+
+        .cta-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gold-gradient);
+        }
+
+        .cta-banner h2 {
+            color: var(--white);
+            font-size: 2.8rem;
+            margin-bottom: 12px;
+        }
+
+        .cta-banner p {
+            color: rgba(255,255,255,0.8);
+            max-width: 600px;
+            margin: 0 auto 32px auto;
+            font-size: 1.1rem;
+        }
+
+        .cta-banner .btn-primary {
+            background: var(--white);
+            color: var(--dark);
+            border-color: var(--white);
+        }
+
+        .cta-banner .btn-primary:hover {
+            background: var(--gold);
+            color: var(--white);
+            border-color: var(--gold);
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: #111;
+            color: #aaa;
+            padding: 60px 0 30px 0;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-brand .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .footer-brand .logo img {
+            height: 45px;
+            width: auto;
+        }
+
+        .footer-brand .logo-text .brand {
+            color: var(--white);
+            font-size: 1.4rem;
+        }
+
+        .footer-brand .logo-text .brand span {
+            color: var(--gold);
+        }
+
+        .footer-brand .logo-text .tagline {
+            color: #888;
+        }
+
+        .footer-brand p {
+            font-size: 0.95rem;
+            max-width: 300px;
+        }
+
+        .footer-links h4 {
+            color: var(--white);
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            margin-bottom: 16px;
+            font-size: 1rem;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links ul a {
+            color: #aaa;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .footer-links ul a:hover {
+            color: var(--gold);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #333;
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 16px;
+        }
+
+        .footer-social a {
+            color: #aaa;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-social a:hover {
+            color: var(--gold);
+        }
+
+        /* ===== FLOATING WHATSAPP BUTTON ===== */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .whatsapp-float a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            color: white;
+            border-radius: 50%;
+            font-size: 2rem;
+            text-decoration: none;
+            box-shadow: 0 6px 25px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+            animation: pulse-whatsapp 2s infinite;
+        }
+
+        .whatsapp-float a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 35px rgba(37, 211, 102, 0.5);
+        }
+
+        .whatsapp-float .tooltip {
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .whatsapp-float:hover .tooltip {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @keyframes pulse-whatsapp {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
+
+        /* ============================================
+                   RESPONSIVE STYLES
+                ============================================ */
+
+        @media (max-width: 992px) {
+            .top-contact-bar .container {
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+            }
+
+            .top-contact-bar .contact-items {
+                justify-content: center;
+                gap: 12px 18px;
+            }
+
+            .top-contact-bar .social-icons {
+                justify-content: center;
+            }
+
+            .aba-content .intro-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+            }
+
+            .aba-content .intro-image img {
+                height: 300px;
+            }
+
+            .aba-content .grid-3col {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .whatsapp-float {
+                bottom: 20px;
+                left: 20px;
+            }
+
+            .whatsapp-float a {
+                width: 50px;
+                height: 50px;
+                font-size: 1.6rem;
+            }
+
+            .section-title {
+                font-size: 2.3rem;
+            }
+
+            .page-header h1 {
+                font-size: 2.8rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .top-contact-bar .contact-items {
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+            }
+
+            .top-contact-bar .contact-items a {
+                font-size: 0.75rem;
+            }
+
+            .top-contact-bar .contact-divider {
+                display: none;
+            }
+
+            .top-contact-bar .social-icons {
+                margin-top: 4px;
+            }
+
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                background: var(--white);
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                padding: 24px 32px;
+                box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+                gap: 16px;
+                border-top: 1px solid #eee;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .page-header {
+                padding: 60px 0 40px 0;
+            }
+
+            .page-header h1 {
+                font-size: 2.2rem;
+            }
+
+            .page-header p {
+                font-size: 1rem;
+                padding: 0 16px;
+            }
+
+            .aba-content {
+                padding: 40px 0;
+            }
+
+            .aba-content .intro-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .aba-content .intro-image img {
+                height: 250px;
+            }
+
+            .aba-content h2 {
+                font-size: 1.8rem;
+            }
+
+            .aba-content h3 {
+                font-size: 1.2rem;
+            }
+
+            .aba-content p {
+                font-size: 0.98rem;
+            }
+
+            .aba-content .grid-2col {
+                grid-template-columns: 1fr;
+            }
+
+            .aba-content .grid-3col {
+                grid-template-columns: 1fr;
+            }
+
+            .aba-content .highlight-box {
+                padding: 20px 24px;
+            }
+
+            .aba-content .cta-inline {
+                padding: 28px 24px;
+            }
+
+            .aba-content .cta-inline h3 {
+                font-size: 1.3rem;
+            }
+
+            .cta-banner {
+                padding: 50px 0;
+            }
+
+            .cta-banner h2 {
+                font-size: 2rem;
+            }
+
+            .cta-banner p {
+                font-size: 1rem;
+                padding: 0 16px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .footer-brand p {
+                max-width: 100%;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .whatsapp-float {
+                bottom: 16px;
+                left: 16px;
+            }
+
+            .whatsapp-float a {
+                width: 48px;
+                height: 48px;
+                font-size: 1.4rem;
+            }
+
+            .whatsapp-float .tooltip {
+                display: none;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 16px;
+            }
+
+            .top-contact-bar .contact-items a {
+                font-size: 0.7rem;
+            }
+
+            .logo img {
+                height: 40px;
+            }
+
+            .logo-text .brand {
+                font-size: 1.2rem;
+            }
+
+            .logo-text .tagline {
+                font-size: 0.55rem;
+            }
+
+            .page-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .page-header p {
+                font-size: 0.9rem;
+            }
+
+            .aba-content .intro-image img {
+                height: 200px;
+            }
+
+            .aba-content h2 {
+                font-size: 1.5rem;
+            }
+
+            .aba-content h3 {
+                font-size: 1.05rem;
+            }
+
+            .aba-content p {
+                font-size: 0.9rem;
+            }
+
+            .aba-content ul li {
+                font-size: 0.9rem;
+                padding: 6px 0;
+                padding-left: 28px;
+            }
+
+            .aba-content .grid-2col .card {
+                padding: 20px;
+            }
+
+            .aba-content .grid-3col .card {
+                padding: 20px;
+            }
+
+            .aba-content .cta-inline {
+                padding: 20px 16px;
+            }
+
+            .aba-content .cta-inline h3 {
+                font-size: 1.1rem;
+            }
+
+            .cta-banner h2 {
+                font-size: 1.6rem;
+            }
+
+            .cta-banner p {
+                font-size: 0.9rem;
+            }
+
+            .cta-banner .btn-primary {
+                padding: 12px 28px;
+                font-size: 0.85rem;
+            }
+
+            .whatsapp-float {
+                bottom: 12px;
+                left: 12px;
+            }
+
+            .whatsapp-float a {
+                width: 44px;
+                height: 44px;
+                font-size: 1.2rem;
+            }
+
+            .footer-brand .logo-text .brand {
+                font-size: 1.2rem;
+            }
+
+            .footer-links h4 {
+                font-size: 0.9rem;
+            }
+
+            .footer-links ul a {
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===== TOP CONTACT BAR - WHITE BACKGROUND ===== -->
+<div class="top-contact-bar">
+    <div class="container">
+        <div class="contact-items">
+            <a href="tel:+2347063695438">
+                <i class="fas fa-phone"></i> +2347063695438
+            </a>
+            <span class="contact-divider">|</span>
+            <a href="mailto:info@citicareservices.com">
+                <i class="fas fa-envelope"></i> info@citicareservices.com
+            </a>
+            <span class="contact-divider">|</span>
+            <a href="#">
+                <i class="fas fa-map-marker-alt"></i> 1, Rotimi Adeola Street Oriokuta, Lagos
+            </a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+
+<!-- ===== FLOATING WHATSAPP BUTTON - BOTTOM LEFT ===== -->
+<div class="whatsapp-float">
+    <a href="https://wa.me/2347063695438" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <span class="tooltip">Chat with us</span>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="./images/citi logo.jpg" alt="CITICARE Logo">
+                <div class="logo-text">
+                    <span class="brand">CITI<span>CARE</span></span>
+                    <span class="tagline">CHILD & ADOLESCENT WELLNESS</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="aba.html" class="active">ABA Therapy</a></li>
+                <li><a href="online-therapy.html">Online Therapy</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="nav-cta">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </div>
+</header>
+
+<!-- ===== PAGE HEADER ===== -->
+<section class="page-header">
+    <div class="container">
+        <h1>Applied Behavior Analysis <br><span class="gold-text">(ABA) Therapy</span></h1>
+        <p>Evidence-based therapeutic approach supporting autistic children in developing communication, social skills, and positive behaviors.</p>
+    </div>
+</section>
+
+<!-- ===== ABA CONTENT ===== -->
+<section class="aba-content">
+    <div class="container">
+
+        <!-- Introduction Section -->
+        <div class="intro-grid">
+            <div class="intro-image">
+                <img src="./images/aba.jpg.jpeg" alt="ABA Therapy Session with child and therapist">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based Therapy</span>
+                <h2>What Is Applied Behavior Analysis <span class="gold-text">(ABA) for Autism?</span></h2>
+                <p><strong>ABA, or Applied Behavior Analysis,</strong> is a specific type of behavior therapy for autistic children and those with other developmental disorders. It is a widely recognized, evidence-based practice that is aimed at helping autistic individuals increase their social, communication, and learning skills and decrease any harmful or problematic behaviors.</p>
+                <p>ABA therapy is a structured, evidence-based practice that is widely recognized and utilized around the globe. Its effectiveness has led to the widespread adoption of ABA therapy in various therapeutic and educational settings.</p>
+            </div>
+        </div>
+
+        <!-- When Is ABA Therapy Used? -->
+        <div id="learn-more">
+            <h2>When Is ABA Therapy <span class="gold-text">Used?</span></h2>
+            <p>Most children will start with ABA therapy for autism between the ages of <strong>2 and 6</strong> when their brains are most adaptable to change, or upon initial diagnosis. The young brain is remarkably flexible, constantly creating new pathways and connections. So, starting therapy during this window of opportunity can help autistic children make more significant strides in developing critical life skills and improving their behavior.</p>
+
+            <div class="grid-2col">
+                <div class="card">
+                    <h4> Behavior Management</h4>
+                    <p>Autistic children often exhibit challenging behaviors such as aggression, tantrums, and even self-injury. ABA therapy breaks down these complex behaviors and provides strategies to reduce them and encourage positive replacement ones.</p>
+                </div>
+                <div class="card">
+                    <h4>Skills Development</h4>
+                    <p>ABA helps children acquire various skills including communication (verbal and non-verbal), motor skills (coordination, fine motor abilities), social skills (interacting with peers and adults), and daily living skills (self-care tasks like dressing, grooming, and hygiene).</p>
+                </div>
+                <div class="card">
+                    <h4> School Readiness</h4>
+                    <p>ABA therapy prepares autistic children for school environments by teaching them to follow instructions, complete tasks, and engage in classroom activities. ABA can also support academic performance through individualized teaching strategies.</p>
+                </div>
+                <div class="card">
+                    <h4> Transition Support & Routine</h4>
+                    <p>ABA therapy helps children transition smoothly between different activities or environments, reducing their anxiety and improving their adaptability. It's also a great way to help autistic children understand and follow daily routines.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- How Does ABA Therapy Work? -->
+        <div style="margin-top: 50px;">
+            <h2>How Does ABA Therapy <span class="gold-text">Work?</span></h2>
+            <p>If your child has been diagnosed with autism, Applied Behavior Analysis is one of the best resources available to you. ABA therapy typically starts with a thorough assessment from a <strong>Board Certified Behavior Analyst (BCBA)</strong>. The BCBA will assess your child's current skills, preferences, and behavior patterns, typically through in-person meetings, observation, and standardized assessments.</p>
+
+            <div class="highlight-box">
+                <p><strong>Based on their findings,</strong> the BCBA, along with input from the autistic individual and their family or caregivers, will set specific, measurable goals to work toward. From there, the behavior analyst will develop a tailored intervention plan that includes strategies and techniques to teach new skills and manage behaviors.</p>
+            </div>
+
+            <h3>ABA Techniques Often Include:</h3>
+            <ul>
+                <li><strong>Reinforcement systems:</strong> Providing rewards or praise to encourage desirable behaviors and implementing consequences for challenging behaviors.</li>
+                <li><strong>Task analysis:</strong> Breaking down complex tasks into smaller, manageable steps and teaching each step individually.</li>
+                <li><strong>Prompting and fading:</strong> Using prompts to guide the autistic individual toward the desired behavior and gradually reducing these prompts as they become more independent.</li>
+                <li><strong>Generalization of skills:</strong> Ensuring that learned behaviors and skills are applied across various settings, such as home, school, and social situations, to promote independence and consistency.</li>
+            </ul>
+
+            <p>Positive reinforcement plays a significant role in Applied Behavior Analysis, encouraging autistic children to repeat certain behaviors by providing them rewards or opportunities to participate in their preferred activities when they demonstrate a preferred behavior. Essentially, making the preferred behavior more rewarding for them to engage in, than others that might be less preferred.</p>
+
+            <p>On the other hand, negative behaviors are discouraged through negative consequences. For example, if your autistic child is throwing a tantrum over a specific toy, the therapist may take the toy away until they calm down and show a willingness to cooperate.</p>
+
+            <p><strong>The aim is that, over time,</strong> the children receiving therapy will start to make connections between what is socially acceptable behavior and what isn't, and the desired behaviors will follow them into the real world.</p>
+        </div>
+
+        <!-- How Long Does ABA Therapy Last? -->
+        <div style="margin-top: 50px;">
+            <h2>How Long Does ABA Therapy <span class="gold-text">Last?</span></h2>
+            <p>Effective ABA Therapy is highly individualized, so this question has no easy answer. Every autistic child will have different needs and program requirements. While early intervention often involves more intensive, full-time programs that maximize learning during crucial developmental periods, your child's specific therapy timeline will be carefully determined through a thorough assessment with a BCBA.</p>
+            <p>This clinical evaluation helps create a personalized therapy schedule that aligns with your child's developmental needs and your family's goals. As your child progresses, their therapy plan will adapt — some children may eventually transition to a classroom setting with minimal support, while others might benefit from continued assistance through classroom aides or specialized education plans.</p>
+        </div>
+
+        <!-- Why ABA Therapy is Such a Good Support Tool -->
+        <div style="margin-top: 50px;">
+            <h2>Why ABA Therapy is Such a <span class="gold-text">Good Support Tool</span></h2>
+            <p>Applied Behavior Analysis is a structured, evidence-based practice that is widely recognized and utilized around the globe. Its effectiveness has led to the widespread adoption of ABA therapy in various therapeutic and educational settings, helping countless individuals learn and improve valuable life skills.</p>
+
+            <div class="grid-3col">
+                <div class="card">
+                    <div class="icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    <h4>Flexibility & Individualization</h4>
+                    <p>Highly individualized treatment that can be developed to meet the unique needs, goals, and learning styles of each person who needs it.</p>
+                </div>
+                <div class="card">
+                    <div class="icon"><i class="fas fa-home"></i></div>
+                    <h4>Versatile Implementation</h4>
+                    <p>Can be implemented in various settings, such as at home, school, or in community environments.</p>
+                </div>
+                <div class="card">
+                    <div class="icon"><i class="fas fa-star"></i></div>
+                    <h4>Comprehensive Development</h4>
+                    <p>Helps children develop critical life skills, communication, social connections, emotional management, and daily task handling.</p>
+                </div>
+            </div>
+
+            <p>But ABA therapy is about so much more than shaping specific behaviors you want to reduce. It helps children develop other behaviors, like critical life skills, communication, connecting with others, managing their emotions, and handling daily tasks. As your children grow up, you want them to feel ready for the real world, and ABA therapy can be a powerful tool to help autistic children tackle real-life situations more confidently.</p>
+
+            <p><strong>Ultimately, it's about giving children the tools they need to thrive, now and in the future.</strong></p>
+        </div>
+
+        <!-- CTA Inline -->
+        <div class="cta-inline">
+            <h3>Ready to Learn More About <span class="gold-text">ABA Therapy?</span></h3>
+            <p>Our experienced ABA therapists are here to support your child's development journey. Contact us today for a consultation.</p>
+            <a href="contact.html" class="btn-primary">Book a Consultation</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+    <div class="container">
+        <h2>Support Your Child's <span class="gold-text">Development</span> with ABA</h2>
+        <p>Our expert ABA therapists work with children and families to build essential skills, improve communication, and foster positive behaviors.</p>
+        <a href="contact.html" class="btn-primary">Book a Consultation</a>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="./images/citi logo.jpg" alt="CITICARE Logo">
+                    <div class="logo-text">
+                        <span class="brand">CITI<span>CARE</span></span>
+                        <span class="tagline">CHILD & ADOLESCENT WELLNESS</span>
+                    </div>
+                </a>
+                <p style="margin-top: 12px;">Providing a golden touch in child and adolescent mental wellness across Nigeria. Delivering evidence-based, compassionate care that helps young people and their families thrive.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="aba.html">ABA Therapy</a></li>
+                    <li><a href="online-therapy.html">Online Therapy</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="services.html#cbt">CBT</a></li>
+                    <li><a href="services.html#dbt">DBT</a></li>
+                    <li><a href="services.html#emdr">EMDR</a></li>
+                    <li><a href="services.html#erp">ERP</a></li>
+                    <li><a href="aba.html">ABA Therapy</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="contact.html"><i class="fas fa-phone" style="color: var(--gold); width: 20px;"></i> +2347063695438</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope" style="color: var(--gold); width: 20px;"></i> info@citicareservices.com</a></li>
+                    <li><a href="contact.html"><i class="fas fa-map-marker-alt" style="color: var(--gold); width: 20px;"></i> 1, Rotimi Adeola Street Oriokuta, Lagos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 CITICARE. All rights reserved.</span>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- ===== JAVASCRIPT ===== -->
+<script>
+    // ===== MOBILE MENU TOGGLE =====
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = hamburger.querySelector('i');
+            if (icon) {
+                icon.classList.toggle('fa-bars');
+                icon.classList.toggle('fa-times');
+            }
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = hamburger.querySelector('i');
+                if (icon) {
+                    icon.classList.add('fa-bars');
+                    icon.classList.remove('fa-times');
+                }
+            });
+        });
+    }
+</script>
+
+</body>
+</html>

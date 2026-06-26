@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Child Development, Child Wellness, Child Mental Health, Child Psychology, Child Therapy, Child Counselling, Child Behaviour Support, Early Childhood Development, Speech Delay Therapy, Speech and Language Therapy for Children, Autism Support for Children, Autism Therapy, ADHD Support for Children, Child Assessment Services, Developmental Milestones, Pediatric Therapy, Child Emotional Wellbeing, Child Learning Support, Behavioural Therapy for Children, Early Intervention Services, Family Support Services, Adolescent Mental Health, Child and Adolescent Wellness, Child Development Specialists, Evidence-Based Child Therapy, Child Communication Skills, Social Skills Development, Parenting Support, Developmental Screening, Children's Wellbeing, Special Needs Support for Children, Healthy Child Development, Citicare Child & Adolescent Wellness">
+    <meta name="description" content="Expert child development, speech therapy, autism support, ADHD intervention, and mental wellness services for children and adolescents.">
+    <title>Our Service - Child Development, Autism, ADHD, ABA & Speech Therapy</title>
+    <meta property="og:title" content="Citicare Child & Adolescent Wellness | Child Development & Therapy Services">
+    <meta property="og:description" content="Expert child development, speech therapy, autism support, ADHD intervention, and mental wellness services for children and adolescents.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.citicarewellness.com">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Citicare Child & Adolescent Wellness">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,600;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/citi logo.jpg">
+    <style>
+        /* ===== VARIABLES ===== */
+        :root {
+            --gold: #C9A84C;
+            --gold-light: #F5E1A4;
+            --gold-dark: #A8892B;
+            --gold-gradient: linear-gradient(135deg, #C9A84C 0%, #F5E1A4 50%, #C9A84C 100%);
+            --white: #FFFFFF;
+            --dark: #1A1A1A;
+            --gray-light: #F8F6F0;
+            --gray-medium: #E8E3D8;
+            --shadow: 0 10px 40px rgba(0,0,0,0.08);
+            --shadow-hover: 0 20px 60px rgba(0,0,0,0.12);
+        }
+
+        /* ===== RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--dark);
+            background-color: var(--white);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ===== TYPOGRAPHY ===== */
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            color: var(--dark);
+        }
+
+        .gold-text {
+            color: var(--gold);
+        }
+
+        .section-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 12px;
+            border-bottom: 2px solid var(--gold);
+            padding-bottom: 6px;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            line-height: 1.15;
+            margin-bottom: 16px;
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto 48px auto;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* ===== BUTTONS ===== */
+        .btn-primary {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--white);
+            font-weight: 600;
+            padding: 16px 44px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid var(--gold);
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+            box-shadow: 0 8px 25px rgba(201, 168, 76, 0.3);
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background: var(--gold-dark);
+            border-color: var(--gold-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(201, 168, 76, 0.4);
+        }
+
+        .btn-secondary {
+            display: inline-block;
+            background: transparent;
+            color: var(--gold);
+            font-weight: 600;
+            padding: 16px 44px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid var(--gold);
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+        }
+
+        .btn-secondary:hover {
+            background: var(--gold);
+            color: var(--white);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(201, 168, 76, 0.3);
+        }
+
+        .btn-outline-light {
+            display: inline-block;
+            background: transparent;
+            color: var(--white);
+            font-weight: 600;
+            padding: 16px 44px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid var(--white);
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+        }
+
+        .btn-outline-light:hover {
+            background: var(--white);
+            color: var(--dark);
+            transform: translateY(-3px);
+        }
+
+        /* ===== TOP CONTACT BAR - WHITE BACKGROUND ===== */
+        .top-contact-bar {
+            background: #FFFFFF;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+        }
+
+        .top-contact-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px 20px;
+        }
+
+        .top-contact-bar .contact-items {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .top-contact-bar .contact-items a {
+            color: #555;
+            text-decoration: none;
+            font-size: 0.82rem;
+            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            white-space: nowrap;
+        }
+
+        .top-contact-bar .contact-items a:hover {
+            color: var(--gold);
+        }
+
+        .top-contact-bar .contact-items i {
+            color: var(--gold);
+            font-size: 0.85rem;
+            width: 16px;
+            text-align: center;
+        }
+
+        .top-contact-bar .social-icons {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .top-contact-bar .social-icons a {
+            color: #999;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .top-contact-bar .social-icons a:hover {
+            color: var(--gold);
+        }
+
+        .top-contact-bar .contact-divider {
+            color: #ddd;
+            font-size: 0.8rem;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            padding: 12px 0;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-text .brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--dark);
+            line-height: 1;
+        }
+
+        .logo-text .brand span {
+            color: var(--gold);
+        }
+
+        .logo-text .tagline {
+            font-size: 0.65rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #888;
+            font-weight: 400;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gold);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        .nav-links a.active {
+            color: var(--gold);
+        }
+
+        .nav-cta {
+            background: var(--gold) !important;
+            color: var(--white) !important;
+            padding: 10px 28px !important;
+            border-radius: 50px !important;
+            transition: all 0.3s ease !important;
+        }
+
+        .nav-cta::after {
+            display: none !important;
+        }
+
+        .nav-cta:hover {
+            background: var(--gold-dark) !important;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(201, 168, 76, 0.3);
+        }
+
+        .hamburger {
+            display: none;
+            font-size: 1.6rem;
+            cursor: pointer;
+            color: var(--dark);
+            background: none;
+            border: none;
+        }
+
+        /* ===== PAGE HEADER ===== */
+        .page-header {
+            background: linear-gradient(135deg, rgba(26, 26, 26, 0.85) 0%, rgba(26, 26, 26, 0.6) 100%),
+                        url('./images/therapist2.jpg') center/cover no-repeat;
+            padding: 80px 0 60px 0;
+            text-align: center;
+            color: var(--white);
+        }
+
+        .page-header h1 {
+            color: var(--white);
+            font-size: 3.5rem;
+            margin-bottom: 12px;
+        }
+
+        .page-header p {
+            color: rgba(255,255,255,0.85);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .page-header p b {
+            color: var(--gold-light);
+        }
+
+        /* ===== SERVICE DETAIL ===== */
+        .service-detail {
+            padding: 60px 0;
+            border-bottom: 1px solid var(--gray-medium);
+        }
+
+        .service-detail:last-child {
+            border-bottom: none;
+        }
+
+        .service-detail .service-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .service-detail .service-grid.reverse {
+            direction: rtl;
+        }
+
+        .service-detail .service-grid.reverse > * {
+            direction: ltr;
+        }
+
+        .service-detail .service-image {
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: var(--shadow-hover);
+        }
+
+        .service-detail .service-image img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .service-detail .service-image img:hover {
+            transform: scale(1.02);
+        }
+
+        .service-detail h3 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1.6rem;
+            margin-bottom: 12px;
+        }
+
+        .service-detail p {
+            color: #555;
+            margin-bottom: 8px;
+        }
+
+        .service-detail ul {
+            list-style: none;
+            margin-top: 16px;
+        }
+
+        .service-detail ul li {
+            padding: 6px 0;
+            padding-left: 28px;
+            position: relative;
+            color: #555;
+        }
+
+        .service-detail ul li::before {
+            content: '✓';
+            color: var(--gold);
+            font-weight: 700;
+            position: absolute;
+            left: 0;
+        }
+
+        /* ===== CTA BANNER ===== */
+        .cta-banner {
+            background: linear-gradient(135deg, var(--dark) 0%, #2a2a2a 100%);
+            padding: 80px 0;
+            text-align: center;
+            color: var(--white);
+            position: relative;
+        }
+
+        .cta-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gold-gradient);
+        }
+
+        .cta-banner h2 {
+            color: var(--white);
+            font-size: 2.8rem;
+            margin-bottom: 12px;
+        }
+
+        .cta-banner p {
+            color: rgba(255,255,255,0.8);
+            max-width: 600px;
+            margin: 0 auto 32px auto;
+            font-size: 1.1rem;
+        }
+
+        .cta-banner .btn-primary {
+            background: var(--white);
+            color: var(--dark);
+            border-color: var(--white);
+        }
+
+        .cta-banner .btn-primary:hover {
+            background: var(--gold);
+            color: var(--white);
+            border-color: var(--gold);
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: #111;
+            color: #aaa;
+            padding: 60px 0 30px 0;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-brand .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .footer-brand .logo img {
+            height: 45px;
+            width: auto;
+        }
+
+        .footer-brand .logo-text .brand {
+            color: var(--white);
+            font-size: 1.4rem;
+        }
+
+        .footer-brand .logo-text .brand span {
+            color: var(--gold);
+        }
+
+        .footer-brand .logo-text .tagline {
+            color: #888;
+        }
+
+        .footer-brand p {
+            font-size: 0.95rem;
+            max-width: 300px;
+        }
+
+        .footer-links h4 {
+            color: var(--white);
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            margin-bottom: 16px;
+            font-size: 1rem;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links ul a {
+            color: #aaa;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .footer-links ul a:hover {
+            color: var(--gold);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #333;
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 16px;
+        }
+
+        .footer-social a {
+            color: #aaa;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-social a:hover {
+            color: var(--gold);
+        }
+
+        /* ===== FLOATING WHATSAPP BUTTON ===== */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .whatsapp-float a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            color: white;
+            border-radius: 50%;
+            font-size: 2rem;
+            text-decoration: none;
+            box-shadow: 0 6px 25px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+            animation: pulse-whatsapp 2s infinite;
+        }
+
+        .whatsapp-float a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 35px rgba(37, 211, 102, 0.5);
+        }
+
+        .whatsapp-float .tooltip {
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .whatsapp-float:hover .tooltip {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @keyframes pulse-whatsapp {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
+
+        /* ============================================
+                   RESPONSIVE STYLES
+                ============================================ */
+
+        /* ===== LARGE TABLETS & SMALL LAPTOPS (992px and below) ===== */
+        @media (max-width: 992px) {
+            .top-contact-bar .container {
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+            }
+
+            .top-contact-bar .contact-items {
+                justify-content: center;
+                gap: 12px 18px;
+            }
+
+            .top-contact-bar .social-icons {
+                justify-content: center;
+            }
+
+            .service-detail .service-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+            }
+
+            .service-detail .service-image img {
+                height: 300px;
+            }
+
+            .service-detail h3 {
+                font-size: 1.4rem;
+            }
+
+            .page-header h1 {
+                font-size: 2.8rem;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .whatsapp-float {
+                bottom: 20px;
+                left: 20px;
+            }
+
+            .whatsapp-float a {
+                width: 50px;
+                height: 50px;
+                font-size: 1.6rem;
+            }
+        }
+
+        /* ===== TABLETS & MOBILE (768px and below) ===== */
+        @media (max-width: 768px) {
+            /* Top Bar */
+            .top-contact-bar .contact-items {
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+            }
+
+            .top-contact-bar .contact-items a {
+                font-size: 0.75rem;
+            }
+
+            .top-contact-bar .contact-divider {
+                display: none;
+            }
+
+            .top-contact-bar .social-icons {
+                margin-top: 4px;
+            }
+
+            /* Navigation */
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                background: var(--white);
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                padding: 24px 32px;
+                box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+                gap: 16px;
+                border-top: 1px solid #eee;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            /* Page Header */
+            .page-header {
+                padding: 60px 0 40px 0;
+            }
+
+            .page-header h1 {
+                font-size: 2.2rem;
+            }
+
+            .page-header p {
+                font-size: 1rem;
+                padding: 0 16px;
+            }
+
+            /* Service Details */
+            .service-detail {
+                padding: 40px 0;
+            }
+
+            .service-detail .service-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .service-detail .service-grid.reverse {
+                direction: ltr;
+            }
+
+            .service-detail .service-grid.reverse > * {
+                direction: ltr;
+            }
+
+            .service-detail .service-image img {
+                height: 250px;
+            }
+
+            .service-detail h3 {
+                font-size: 1.3rem;
+                margin-top: 0;
+            }
+
+            .service-detail p {
+                font-size: 0.95rem;
+            }
+
+            .service-detail ul li {
+                font-size: 0.95rem;
+            }
+
+            /* CTA Banner */
+            .cta-banner {
+                padding: 50px 0;
+            }
+
+            .cta-banner h2 {
+                font-size: 2rem;
+            }
+
+            .cta-banner p {
+                font-size: 1rem;
+                padding: 0 16px;
+            }
+
+            .cta-banner .btn-primary {
+                padding: 14px 32px;
+                font-size: 0.95rem;
+            }
+
+            /* Footer */
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .footer-brand p {
+                max-width: 100%;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            /* WhatsApp Float */
+            .whatsapp-float {
+                bottom: 16px;
+                left: 16px;
+            }
+
+            .whatsapp-float a {
+                width: 48px;
+                height: 48px;
+                font-size: 1.4rem;
+            }
+
+            .whatsapp-float .tooltip {
+                display: none;
+            }
+        }
+
+        /* ===== SMALL MOBILE (480px and below) ===== */
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 16px;
+            }
+
+            .top-contact-bar .contact-items a {
+                font-size: 0.7rem;
+            }
+
+            .logo img {
+                height: 40px;
+            }
+
+            .logo-text .brand {
+                font-size: 1.2rem;
+            }
+
+            .logo-text .tagline {
+                font-size: 0.55rem;
+            }
+
+            .page-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .page-header p {
+                font-size: 0.9rem;
+            }
+
+            .service-detail {
+                padding: 30px 0;
+            }
+
+            .service-detail .service-image img {
+                height: 200px;
+            }
+
+            .service-detail h3 {
+                font-size: 1.1rem;
+            }
+
+            .service-detail p {
+                font-size: 0.9rem;
+            }
+
+            .service-detail ul li {
+                font-size: 0.9rem;
+                padding: 4px 0;
+                padding-left: 24px;
+            }
+
+            .cta-banner h2 {
+                font-size: 1.6rem;
+            }
+
+            .cta-banner p {
+                font-size: 0.9rem;
+            }
+
+            .cta-banner .btn-primary {
+                padding: 12px 28px;
+                font-size: 0.85rem;
+            }
+
+            .whatsapp-float {
+                bottom: 12px;
+                left: 12px;
+            }
+
+            .whatsapp-float a {
+                width: 44px;
+                height: 44px;
+                font-size: 1.2rem;
+            }
+
+            .footer-brand .logo-text .brand {
+                font-size: 1.2rem;
+            }
+
+            .footer-links h4 {
+                font-size: 0.9rem;
+            }
+
+            .footer-links ul a {
+                font-size: 0.85rem;
+            }
+        }
+
+        /* ===== EXTRA SMALL (360px and below) ===== */
+        @media (max-width: 360px) {
+            .top-contact-bar .contact-items a {
+                font-size: 0.6rem;
+            }
+
+            .page-header h1 {
+                font-size: 1.5rem;
+            }
+
+            .service-detail .service-image img {
+                height: 160px;
+            }
+
+            .service-detail h3 {
+                font-size: 1rem;
+            }
+
+            .service-detail p {
+                font-size: 0.85rem;
+            }
+
+            .service-detail ul li {
+                font-size: 0.85rem;
+            }
+
+            .cta-banner h2 {
+                font-size: 1.3rem;
+            }
+
+            .whatsapp-float a {
+                width: 38px;
+                height: 38px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===== TOP CONTACT BAR - WHITE BACKGROUND ===== -->
+<div class="top-contact-bar">
+    <div class="container">
+        <div class="contact-items">
+            <a href="tel:+2347063695438">
+                <i class="fas fa-phone"></i> +2347063695438
+            </a>
+            <span class="contact-divider">|</span>
+            <a href="mailto:info@citicareservices.com">
+                <i class="fas fa-envelope"></i> info@citicareservices.com
+            </a>
+            <span class="contact-divider">|</span>
+            <a href="#">
+                <i class="fas fa-map-marker-alt"></i> 1, Rotimi Adeola Street Oriokuta, Lagos
+            </a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+
+<!-- ===== FLOATING WHATSAPP BUTTON - BOTTOM LEFT ===== -->
+<div class="whatsapp-float">
+    <a href="https://wa.me/2347063695438" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <span class="tooltip">Chat with us</span>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="./images/citi logo.jpg" alt="CITICARE Logo">
+                <div class="logo-text">
+                    <span class="brand">CITI<span>CARE</span></span>
+                    <span class="tagline">CHILD & ADOLESCENT WELLNESS</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="aba.html">ABA Therapy</a></li>
+                <li><a href="online-therapy.html">Online Therapy</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="nav-cta">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </div>
+</header>
+
+<!-- ===== PAGE HEADER ===== -->
+<section class="page-header">
+    <div class="container">
+        <h1>Our <span class="gold-text">Services</span></h1>
+        <p style="color: #f7d782;"><b>Child and Adolescents Mental Health</b></p>
+        <p>We offer support to children, young people and their families for a range of difficulties including:</p>
+    </div>
+</section>
+
+<!-- SECTION BATCH A -->
+<!-- ===== Child and Adolescents Mental Health ===== -->
+<section class="service-detail" id="mental-health">
+    <div class="container">
+        <div class="service-grid">
+            <div class="service-image">
+                <img src="./images/services-2.jpg" alt="Child and Adolescents Mental Health">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Child and Adolescents Mental Health</h3>
+                <p>Our experienced Clinical Psychologists working with children, young people and their families have specialist training to help children understand and manage a broad range of mental health difficulties.</p>
+                <p>Through a comprehensive evaluation, the psychologist will work to understand the difficulty, what might be contributing to the difficulties and think with you about the most appropriate mode of support. This support may involve individual sessions with the child, sessions with the whole family, and/or working in collaboration with schools and other services in the child's network.</p>
+                <p>In addition, our therapists also provide school observations, home visits, or specialist cognitive assessments as part of a larger assessment process. Our Psychologists are able to draw on a range of therapeutic models such as Cognitive Behavioural Therapy, Cognitive Processing Therapy, Systemic Therapy and Psychodynamic Therapy, Play Therapy and others.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Low Self-Esteem ===== -->
+<section class="service-detail" id="self-esteem">
+    <div class="container">
+        <div class="service-grid reverse">
+            <div class="service-image">
+                <img src="./images/low selfesteem.jpg" alt="Low Self-Esteem Therapy">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Low Self-Esteem</h3>
+                <p>Low self-esteem in children occurs when a child has a poor opinion of themselves and their abilities. They may feel they are not good enough, struggle to recognize their strengths, or believe they are less capable than their peers. This can affect their confidence, relationships, academic performance, and overall emotional well-being.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we help children build confidence, develop a positive self-image, and strengthen their emotional resilience. Through evidence-based assessments, counselling, psychotherapy, and family support, our specialists work closely with children and their caregivers to address the underlying causes of low self-esteem and empower them to thrive.</p>
+                <p><b>Common Signs and Symptoms:</b></p>
+                <ul>
+                    <li>Negative self-talk</li>
+                    <li>Lack of confidence</li>
+                    <li>Fear of making mistake</li>
+                    <li>Social withdrawal</li>
+                    <li>Poor academic confidence, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Depression in Children ===== -->
+<section class="service-detail" id="depression">
+    <div class="container">
+        <div class="service-grid">
+            <div class="service-image">
+                <img src="./images/depressed.jpg" alt="Depression in Children">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Depression in Children</h3>
+                <p>Depression is more than occasional sadness or mood changes. It is a mental health condition that can affect how a child thinks, feels, and behaves. Children experiencing depression may lose interest in activities they once enjoyed, struggle with school performance, withdraw from friends and family, or experience persistent feelings of sadness, hopelessness, or irritability.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we provide compassionate, evidence-based support to help children overcome depression and regain emotional well-being. Through comprehensive assessments, counselling, psychotherapy, and family-focused interventions, our specialists work with children and their caregivers to identify underlying challenges, build healthy coping skills, and foster resilience and recovery.</p>
+                <p><b>Common Signs and Symptoms:</b></p>
+                <ul>
+                    <li>Persistent sadness or low mood</li>
+                    <li>Loss of interest in favorite activities</li>
+                    <li>Feelings of hopelessness or worthlessness</li>
+                    <li>Difficulty concentrating</li>
+                    <li>Declining academic performance, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Disruptive Mood Dysregulation Disorder ===== -->
+<section class="service-detail" id="dmdd">
+    <div class="container">
+        <div class="service-grid reverse">
+            <div class="service-image">
+                <img src="./images/tantrum.jpg" alt="Disruptive Mood Dysregulation Disorder">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Disruptive Mood Dysregulation Disorder (DMDD)</h3>
+                <p>Disruptive Mood Dysregulation Disorder (DMDD) is a childhood mental health condition characterized by persistent irritability and frequent, intense temper outbursts that are much more severe than expected for a child's age. Children with DMDD often struggle to regulate their emotions, leading to difficulties at home, in school, and in social settings.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we help children and their families understand and manage the challenges associated with DMDD. Through comprehensive assessments, evidence-based therapy, emotional regulation training, and family support, our specialists work to help children develop healthier coping skills, improve their relationships, and achieve greater emotional stability.</p>
+                <p><b>Common Signs and Symptoms:</b></p>
+                <ul>
+                    <li>Frequent and severe temper outbursts</li>
+                    <li>Aggressive verbal or physical reactions</li>
+                    <li>Difficulty controlling emotions</li>
+                    <li>Frequent conflicts with parents, teachers, or peers</li>
+                    <li>Difficulty adapting to changes or disappointments, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Obsessive-Compulsive Disorder ===== -->
+<section class="service-detail" id="ocd">
+    <div class="container">
+        <div class="service-grid">
+            <div class="service-image">
+                <img src="./images/OCD-in-kids-1.jpg" alt="Obsessive-Compulsive Disorder">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Obsessive-Compulsive Disorder (OCD)</h3>
+                <p>Obsessive-Compulsive Disorder (OCD) is a mental health condition that can affect children, causing unwanted and recurring thoughts, fears, or urges (obsessions) that lead them to perform repetitive behaviors or rituals (compulsions). These thoughts and behaviors can become distressing and may interfere with daily activities, school performance, and social interactions.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we help children manage OCD through comprehensive assessments and evidence-based therapeutic interventions. Our specialists work closely with children and their families to reduce anxiety, develop healthy coping strategies, and help children regain confidence and control over their thoughts and behaviors.</p>
+                <p><b>Common Signs and Symptoms:</b></p>
+                <ul>
+                    <li>Excessive fear of germs or contamination</li>
+                    <li>Need for things to be arranged in a specific order</li>
+                    <li>Repetitive counting or repeating words silently</li>
+                    <li>Anxiety when unable to complete compulsive behaviors</li>
+                    <li>Difficulty tolerating uncertainty, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Behavioural and Emotional Difficulties ===== -->
+<section class="service-detail" id="behavioural">
+    <div class="container">
+        <div class="service-grid reverse">
+            <div class="service-image">
+                <img src="./images/depression.jpg" alt="Behavioural and Emotional Difficulties">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Behavioural and Emotional Difficulties</h3>
+                <p>Behavioural and emotional difficulties in children can affect how they think, feel, and interact with others. These challenges may present as frequent anger, defiance, excessive worry, sadness, difficulty managing emotions, or problems following rules and routines. If left unaddressed, they can impact a child's relationships, learning, and overall well-being.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we provide comprehensive assessments and evidence-based interventions to help children better understand and manage their emotions and behaviours. Through counselling, psychotherapy, and family support, we work closely with children and their caregivers to build emotional resilience, improve behaviour, and promote healthy development.</p>
+                <p><b>Common Signs and Symptoms:</b></p>
+                <ul>
+                    <li>Excessive worry or fear</li>
+                    <li>Defiant or oppositional behaviour</li>
+                    <li>Difficulty following rules or instructions</li>
+                    <li>Poor peer relationships</li>
+                    <li>Challenges adapting to change or transitions, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECOND BATCH B -->
+
+<!-- ===== Stress, Anxiety and Panic ===== -->
+<section class="service-detail" id="anxiety">
+    <div class="container">
+        <div class="service-grid">
+            <div class="service-image">
+                <img src="./images/anxiety.jpg" alt="Stress, Anxiety and Panic">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Stress, Anxiety and Panic</h3>
+                <p>Stress, anxiety, and panic can affect children of all ages, causing them to feel overwhelmed, worried, or fearful in ways that interfere with their daily lives. While occasional stress is a normal part of growing up, persistent anxiety or panic can impact a child's emotional well-being, school performance, relationships, and ability to participate in everyday activities.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we help children understand and manage their feelings through comprehensive assessments and evidence-based therapeutic support. Our specialists work closely with children and their families to identify triggers, develop healthy coping strategies, build emotional resilience, and restore a sense of confidence and security.</p>
+                <p><b>Common Signs and Symptoms:</b></p>
+                <ul>
+                    <li>Avoidance of certain situations or activities</li>
+                    <li>Frequent feelings of fear or nervousness</li>
+                    <li>Panic attacks or sudden intense fear</li>
+                    <li>Excessive worrying, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Attention-Deficit/Hyperactivity Disorder ===== -->
+<section class="service-detail" id="adhd">
+    <div class="container">
+        <div class="service-grid reverse">
+            <div class="service-image">
+                <img src="./images/joyful-child-jumping.jpg" alt="ADHD">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Attention-Deficit/Hyperactivity Disorder (ADHD)</h3>
+                <p>Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental condition that affects a child's ability to focus, regulate impulses, and manage activity levels. Children with ADHD may struggle to pay attention, stay organized, follow instructions, or sit still when required. These challenges can affect their academic performance, relationships, and daily functioning.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we provide comprehensive assessments and evidence-based interventions to help children with ADHD reach their full potential. Our specialists work closely with children, parents, and schools to develop practical strategies that improve attention, self-regulation, behaviour, and overall well-being.</p>
+                <p><b>Common Signs and Symptoms:</b></p>
+                <ul>
+                    <li>Difficulty waiting for their turn</li>
+                    <li>Excessive talking</li>
+                    <li>Fidgeting or restlessness</li>
+                    <li>Impulsive behaviour</li>
+                    <li>Poor academic performance due to inattention or hyperactivity, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Autism Spectrum Disorder ===== -->
+<section class="service-detail" id="autism">
+    <div class="container">
+        <div class="service-grid">
+            <div class="service-image">
+                <img src="./images/autism.jpg" alt="Autism Spectrum Disorder">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Autism Spectrum Disorder (ASD)</h3>
+                <p>Autism Spectrum Disorder (ASD) is a neurodevelopmental condition that affects how children communicate, interact with others, learn, and experience the world around them. Children with ASD may have differences in social communication, behaviour, interests, and sensory processing. Because autism exists on a spectrum, each child experiences unique strengths, challenges, and support needs.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we provide comprehensive assessments and individualized, evidence-based interventions to support children with ASD and their families. Our specialists work closely with parents, caregivers, and schools to enhance communication skills, social development, emotional well-being, and independence, helping every child reach their fullest potential.</p>
+                <p><b>Common Signs and Symptoms:</b></p>
+                <ul>
+                    <li>Delayed speech or language development</li>
+                    <li>Challenges expressing emotions or needs</li>
+                    <li>Repetitive behaviours or movements</li>
+                    <li>Intense focus on specific interests</li>
+                    <li>Challenges understanding social cues, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Conduct Disorder ===== -->
+<section class="service-detail" id="conduct">
+    <div class="container">
+        <div class="service-grid reverse">
+            <div class="service-image">
+                <img src="./images/conduct1.jpg" alt="Conduct Disorder">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Conduct Disorder</h3>
+                <p>Conduct Disorder is a behavioural condition in which a child consistently displays patterns of aggressive, defiant, or rule-breaking behaviour that go beyond typical childhood misbehaviour. Children with Conduct Disorder may struggle to respect the rights of others, follow rules, or manage their emotions appropriately, which can affect their relationships, academic progress, and overall development.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we provide comprehensive assessments and evidence-based interventions to help children develop healthier behaviours and stronger emotional regulation skills. Through individual therapy, family support, and behavioural strategies, our specialists work with children and their caregivers to address underlying challenges, improve social functioning, and promote positive development.</p>
+                <p><b>Common Signs and Symptoms:</b></p>
+                <ul>
+                    <li>Frequent aggression toward people or animals</li>
+                    <li>Difficulty accepting responsibility for actions</li>
+                    <li>Persistent defiance of rules and authority</li>
+                    <li>Risk-taking or reckless behaviour</li>
+                    <li>Lack of remorse after misbehaviour, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Oppositional Defiant Disorder ===== -->
+<section class="service-detail" id="odd">
+    <div class="container">
+        <div class="service-grid">
+            <div class="service-image">
+                <img src="./images/odd1.jpg" alt="Oppositional Defiant Disorder">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Oppositional Defiant Disorder (ODD)</h3>
+                <p>Oppositional Defiant Disorder (ODD) is a behavioural condition characterized by a persistent pattern of angry, irritable, argumentative, and defiant behaviour toward parents, teachers, and other authority figures. Children with ODD often struggle to manage their emotions and may frequently challenge rules, making it difficult for them to function effectively at home, school, and in social settings.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we provide comprehensive assessments and evidence-based interventions to help children develop healthier ways of managing their emotions and behaviours. Through therapy, behavioural support, and family-focused interventions, our specialists work with children and their caregivers to improve communication, strengthen relationships, and promote positive behavioural change.</p>
+                <p><b>Common Signs and Symptoms:</b></p>
+                <ul>
+                    <li>Problems maintaining positive relationships</li>
+                    <li>Defiant or rebellious behaviour</li>
+                    <li>Arguing with adults or authority figures</li>
+                    <li>Being easily annoyed or offended</li>
+                    <li>Blaming others for mistakes or misbehaviour, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Childhood Trauma ===== -->
+<section class="service-detail" id="trauma">
+    <div class="container">
+        <div class="service-grid reverse">
+            <div class="service-image">
+                <img src="./images/childhood trauma.jpg" alt="Childhood Trauma">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Childhood Trauma</h3>
+                <p>Childhood trauma refers to distressing or overwhelming experiences that can have a lasting impact on a child's emotional, psychological, and social development. Traumatic experiences may include abuse, neglect, loss of a loved one, exposure to violence, serious accidents, or other events that make a child feel unsafe, helpless, or fearful. Without appropriate support, trauma can affect a child's behaviour, relationships, learning, and overall well-being.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we provide compassionate, trauma-informed care to help children heal and regain a sense of safety and stability. Through comprehensive assessments, evidence-based therapy, and family support, our specialists help children process difficult experiences, develop healthy coping skills, build resilience, and thrive emotionally.</p>
+                <p><b>Common Signs and Symptoms:</b></p>
+                <ul>
+                    <li>Avoidance of reminders of the traumatic event</li>
+                    <li>Excessive fear or anxiety</li>
+                    <li>Frequent nightmares or sleep difficulties</li>
+                    <li>Increased clinginess or separation anxiety</li>
+                    <li>Hypervigilance or being easily startled, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Family and Relationship Difficulties ===== -->
+<section class="service-detail" id="family">
+    <div class="container">
+        <div class="service-grid">
+            <div class="service-image">
+                <img src="./images/family issues.jpg" alt="Family and Relationship Difficulties">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Family and Relationship Difficulties</h3>
+                <p>Family and relationship difficulties can have a significant impact on a child's emotional well-being, behaviour, and development. Challenges such as parental conflict, separation or divorce, communication problems, loss of a family member, or difficulties with siblings and peers can leave children feeling confused, anxious, angry, or withdrawn. These experiences may affect their ability to feel secure, build healthy relationships, and cope with everyday life.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we help children and families navigate relationship challenges in a supportive and compassionate environment. Through comprehensive assessments, counselling, psychotherapy, and family-focused interventions, our specialists work to strengthen communication, improve relationships, promote emotional well-being, and help children develop healthy coping skills.</p>
+                <p><b>Common Signs and Symptoms:</b></p>
+                <ul>
+                    <li>Sadness or low mood</li>
+                    <li>Difficulty expressing emotions</li>
+                    <li>Behavioural problems at home or school</li>
+                    <li>Difficulty adjusting to family changes</li>
+                    <li>Increased conflict with family members or peers, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Communication Difficulties ===== -->
+<section class="service-detail" id="communication">
+    <div class="container">
+        <div class="service-grid reverse">
+            <div class="service-image">
+                <img src="./images/female-speech-therapist.jpg" alt="Communication Difficulties">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Communication Difficulties</h3>
+                <p>Communication difficulties can affect a child's ability to express their thoughts, needs, feelings, or understand what others are saying. These challenges may involve speech, language, social communication, or understanding verbal and non-verbal cues. Communication difficulties can impact a child's confidence, learning, relationships, and participation in everyday activities.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we help children develop effective communication skills through comprehensive assessments and individualized, evidence-based interventions. Our specialists work closely with children and their families to strengthen communication, build confidence, improve social interactions, and support healthy emotional and developmental growth.</p>
+                <p><b>Common Signs and Symptoms:</b></p>
+                <ul>
+                    <li>Delayed speech or language development</li>
+                    <li>Difficulty expressing thoughts or feelings</li>
+                    <li>Difficulty making friends or interacting with peers</li>
+                    <li>Frustration when trying to communicate</li>
+                    <li>Low confidence in speaking or interacting with others, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION BATCH C -->
+
+<!-- ===== Cognitive Behaviour Therapy ===== -->
+<section class="service-detail" id="cbt">
+    <div class="container">
+        <div class="service-grid">
+            <div class="service-image">
+                <img src="./images/cbt new.jpg" alt="Cognitive Behaviour Therapy">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Cognitive Behaviour Therapy (CBT)</h3>
+                <p>Cognitive Behaviour Therapy (CBT) is an evidence-based therapeutic approach that helps children understand the connection between their thoughts, feelings, and behaviours. By identifying and changing unhelpful thinking patterns, CBT enables children to develop healthier emotional responses and more effective ways of coping with challenges in their daily lives.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we use Cognitive Behaviour Therapy to support children experiencing anxiety, depression, low self-esteem, behavioural difficulties, and other emotional challenges. Our specialists work closely with children and their families to build practical coping skills, strengthen emotional resilience, and promote positive mental well-being.</p>
+                <p><b>Benefits of Cognitive Behaviour Therapy:</b></p>
+                <ul>
+                    <li>Helps children identify and challenge negative thoughts</li>
+                    <li>Improves emotional regulation</li>
+                    <li>Builds self-esteem and confidence</li>
+                    <li>Helps manage symptoms of depression</li>
+                    <li>Reduces anxiety and worry, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Dialectical Behaviour Therapy ===== -->
+<section class="service-detail" id="dbt">
+    <div class="container">
+        <div class="service-grid reverse">
+            <div class="service-image">
+                <img src="./images/dbt1.jpg" alt="Dialectical Behaviour Therapy">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Dialectical Behaviour Therapy (DBT)</h3>
+                <p>Dialectical Behaviour Therapy (DBT) is an evidence-based therapeutic approach that helps children understand and manage intense emotions, improve relationships, and develop healthier coping skills. DBT teaches practical strategies for handling difficult feelings, reducing impulsive behaviours, and responding to challenges in a more balanced and effective way.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we use Dialectical Behaviour Therapy to support children experiencing emotional dysregulation, behavioural difficulties, anxiety, mood challenges, and interpersonal conflicts. Our specialists work closely with children and their families to build emotional resilience, strengthen communication skills, and promote positive mental health and well-being.</p>
+                <p><b>Benefits of Dialectical Behaviour Therapy:</b></p>
+                <ul>
+                    <li>Improves emotional regulation</li>
+                    <li>Teaches healthy coping skills</li>
+                    <li>Reduces impulsive behaviours</li>
+                    <li>Enhances stress management</li>
+                    <li>Builds resilience and self-confidence, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Exposure and Response Prevention Therapy ===== -->
+<section class="service-detail" id="erp">
+    <div class="container">
+        <div class="service-grid">
+            <div class="service-image">
+                <img src="./images/erp .jpg" alt="Exposure and Response Prevention Therapy">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Exposure and Response Prevention Therapy (ERP)</h3>
+                <p>Exposure and Response Prevention (ERP) Therapy is a specialized, evidence-based form of Cognitive Behaviour Therapy that helps children overcome obsessive fears, worries, and compulsive behaviours. ERP works by gradually and safely exposing children to situations that trigger anxiety while teaching them how to resist the urge to engage in compulsive or avoidance behaviours. Over time, this helps reduce anxiety and builds confidence in managing difficult thoughts and feelings.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we use ERP Therapy to support children experiencing Obsessive-Compulsive Disorder (OCD), anxiety disorders, and related challenges. Our specialists provide a supportive and structured environment where children can develop effective coping skills, face fears with confidence, and regain control over their daily lives.</p>
+                <p><b>Benefits of Exposure and Response Prevention Therapy:</b></p>
+                <ul>
+                    <li>Reduces obsessive thoughts and worries</li>
+                    <li>Decreases compulsive behaviours</li>
+                    <li>Helps children face fears gradually and safely</li>
+                    <li>Builds confidence and resilience</li>
+                    <li>Improves emotional regulation, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Cognitive Processing Therapy ===== -->
+<section class="service-detail" id="cpt">
+    <div class="container">
+        <div class="service-grid reverse">
+            <div class="service-image">
+                <img src="./images/cpt1.jpg" alt="Cognitive Processing Therapy">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Cognitive Processing Therapy (CPT)</h3>
+                <p>Cognitive Processing Therapy (CPT) is an evidence-based therapeutic approach that helps children understand and change unhelpful thoughts and beliefs that may develop after difficult or traumatic experiences. CPT helps children identify how their thoughts influence their emotions and behaviours, enabling them to develop healthier ways of thinking and coping.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we use Cognitive Processing Therapy to support children experiencing trauma-related difficulties, anxiety, low self-esteem, and other emotional challenges. Our specialists provide a safe and supportive environment where children can process their experiences, challenge negative thought patterns, build resilience, and improve their emotional well-being.</p>
+                <p><b>Benefits of Cognitive Processing Therapy:</b></p>
+                <ul>
+                    <li>Enhances self-esteem and confidence</li>
+                    <li>Helps children identify and challenge unhelpful thoughts</li>
+                    <li>Improves emotional regulation</li>
+                    <li>Reduces trauma-related distress</li>
+                    <li>Builds healthier coping skills, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Eye Movement Desensitization Reprocessing ===== -->
+<section class="service-detail" id="emdr">
+    <div class="container">
+        <div class="service-grid">
+            <div class="service-image">
+                <img src="./images/emdr1.jpg" alt="Eye Movement Desensitization Reprocessing">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Eye Movement Desensitization Reprocessing (EMDR)</h3>
+                <p>Eye Movement Desensitization and Reprocessing (EMDR) is an evidence-based therapeutic approach that helps children process and recover from distressing or traumatic experiences. EMDR uses guided techniques, including bilateral stimulation such as eye movements, to help the brain reprocess difficult memories in a healthier way. This can reduce the emotional impact of traumatic experiences and support healing.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we use EMDR Therapy to help children who have experienced trauma, anxiety, loss, or other emotionally challenging events. Our specialists provide a safe, supportive, and child-friendly environment where children can process difficult experiences, build resilience, and develop healthier emotional responses.</p>
+                <p><b>Benefits of Eye Movement Desensitization and Reprocessing (EMDR):</b></p>
+                <ul>
+                    <li>Helps process traumatic experiences</li>
+                    <li>Reduces emotional distress related to difficult memories</li>
+                    <li>Decreases anxiety and fear</li>
+                    <li>Improves emotional regulation</li>
+                    <li>Builds resilience and confidence, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Habit Reversal Therapy ===== -->
+<section class="service-detail" id="habit-reversal">
+    <div class="container">
+        <div class="service-grid reverse">
+            <div class="service-image">
+                <img src="./images/habit.jpg" alt="Habit Reversal Therapy">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Habit Reversal Therapy</h3>
+                <p>Habit Reversal Therapy (HRT) is an evidence-based therapeutic approach that helps children identify and reduce repetitive behaviours or habits that may interfere with their daily lives. These behaviours can include tics, hair pulling, nail biting, skin picking, and other repetitive actions that may be difficult for a child to control. HRT teaches children to recognize triggers and replace unwanted habits with healthier, more adaptive responses.</p>
+                <p>At Citicare Child & Adolescent Mental Wellness, we use Habit Reversal Therapy to help children gain greater awareness of their behaviours and develop effective strategies for managing them. Our specialists work closely with children and their families to build self-control, improve confidence, and promote positive behavioural change in a supportive and encouraging environment.</p>
+                <p><b>Benefits of Habit Reversal Therapy:</b></p>
+                <ul>
+                    <li>Reduces repetitive habits and behaviours</li>
+                    <li>Increases self-awareness and self-control</li>
+                    <li>Helps children identify behavioural triggers</li>
+                    <li>Teaches healthier alternative responses</li>
+                    <li>Reduces stress associated with unwanted habits, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Educational psychology===== -->
+<section class="service-detail" id="emdr">
+    <div class="container">
+        <div class="service-grid">
+            <div class="service-image">
+                <img src="./images/services-3.jpg" alt="Eye Movement Desensitization Reprocessing">
+            </div>
+            <div>
+                <span class="section-tag">Evidence-Based</span>
+                <h3>Educational psychology</h3>
+                <p>Clinical Child Psychologists and School Psychologists specialise in conducting comprehensive psychoeducational assessments for children and adolescents who may be experiencing difficulties in various domains.</p>        
+                <p><b>Your child may benefit from the services of a Clinical Child Psychologist if you have concerns about their:</b></p>
+                <ul>
+                    <li>Cognitive/intellectual capacity</li>
+                    <li>Intelligent quotients (IQ)</li>
+                    <li>Developmental milestones</li>
+                    <li>Academic achievement or learning abilities</li>
+                    <li>Social, emotional and/or behavioural functioning.</li>
+                    <li> Speech and language development</li>
+                    <li> Attention, Hyperactivity, and/or impulsivity</li>
+                    <li> Relationships with peers, teachers, family and/or authority</li>
+                    <li> Other areas of neurodevelopmental functioning, etc.</li>
+                </ul>
+                <p>A comprehensive evaluation begins with a clinical interview with parents to determine areas of concern and collect important developmental history of the child. This is followed by one-to-one testing sessions with the child, utilising an appropriate battery of psychometric tests. Additional information will also be gathered from parents and teachers via rating scales, school observations and telephone consultations where necessary. After all data is gathered and interpreted, findings are documented in a detailed report and parents attend a feedback session where the Psychologist can explain the outcome of the assessment, including diagnostic impressions, and discuss recommendations for interventions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+    <div class="container">
+        <h2>Find the Right <span class="gold-text">Approach</span> for Your Child</h2>
+        <p>Our expert therapists will work with you to determine the best therapeutic approach for your child's unique needs.</p>
+        <a href="contact.html" class="btn-primary">Book a Consultation</a>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="./images/citi logo.jpg" alt="CITICARE Logo">
+                    <div class="logo-text">
+                        <span class="brand">CITI<span>CARE</span></span>
+                        <span class="tagline">CHILD & ADOLESCENT WELLNESS</span>
+                    </div>
+                </a>
+                <p style="margin-top: 12px;">Providing a golden touch in child and adolescent mental wellness across Nigeria. Delivering evidence-based, compassionate care that helps young people and their families thrive.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="online-therapy.html">Online Therapy</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="services.html#cbt">CBT</a></li>
+                    <li><a href="services.html#dbt">DBT</a></li>
+                    <li><a href="services.html#emdr">EMDR</a></li>
+                    <li><a href="services.html#erp">ERP</a></li>
+                    <li><a href="services.html#habit-reversal">Habit Reversal</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="contact.html"><i class="fas fa-phone" style="color: var(--gold); width: 20px;"></i> +2347063695438</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope" style="color: var(--gold); width: 20px;"></i> info@citicareservices.com</a></li>
+                    <li><a href="contact.html"><i class="fas fa-map-marker-alt" style="color: var(--gold); width: 20px;"></i> 1, Rotimi Adeola Street Oriokuta, Lagos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 CITICARE. All rights reserved.</span>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // ===== MOBILE MENU TOGGLE =====
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = hamburger.querySelector('i');
+            if (icon) {
+                icon.classList.toggle('fa-bars');
+                icon.classList.toggle('fa-times');
+            }
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = hamburger.querySelector('i');
+                if (icon) {
+                    icon.classList.add('fa-bars');
+                    icon.classList.remove('fa-times');
+                }
+            });
+        });
+    }
+</script>
+
+</body>
+</html>
